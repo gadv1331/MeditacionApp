@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenInicio" translatesAutoresizingMaskIntoConstraints="NO" id="KOh-5C-bFC">
+                                <rect key="frame" x="0.0" y="-10" width="393" height="512.66666666666663"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="KOh-5C-bFC" secondAttribute="height" multiplier="23:30" id="9pb-XP-L7I"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w6-UP-OSB">
+                                <rect key="frame" x="75" y="545.66666666666663" width="242" height="58.333333333333371"/>
+                                <color key="backgroundColor" red="0.56078431370000004" green="0.27058823529999998" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5w6-UP-OSB" secondAttribute="height" multiplier="112:27" id="Hvc-6U-ZGh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Inicio"/>
+                                <connections>
+                                    <segue destination="ARx-MI-Guq" kind="presentation" modalPresentationStyle="fullScreen" id="R3Y-A1-G1t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uH3-YQ-XhN">
+                                <rect key="frame" x="75" y="649" width="242" height="58.333333333333371"/>
+                                <color key="backgroundColor" red="0.56078431370000004" green="0.27058823529999998" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uH3-YQ-XhN" secondAttribute="height" multiplier="112:27" id="VFO-ma-9xj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Salir"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logoInicio" translatesAutoresizingMaskIntoConstraints="NO" id="Bkr-gV-IyX">
+                                <rect key="frame" x="77" y="102.99999999999999" width="238" height="193.66666666666663"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Bkr-gV-IyX" secondAttribute="height" multiplier="220:179" id="zJ6-V0-qhx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bkr-gV-IyX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="14n-q9-55L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bkr-gV-IyX" secondAttribute="trailing" constant="78" id="5bz-kO-aLy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5w6-UP-OSB" secondAttribute="trailing" constant="76" id="6zD-VK-dbt"/>
+                            <constraint firstItem="Bkr-gV-IyX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="JBs-0d-xsg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uH3-YQ-XhN" secondAttribute="trailing" constant="76" id="Jsq-qi-djc"/>
+                            <constraint firstItem="KOh-5C-bFC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-10" id="SS3-8A-6iN"/>
+                            <constraint firstItem="5w6-UP-OSB" firstAttribute="top" secondItem="KOh-5C-bFC" secondAttribute="bottom" constant="43" id="U9O-kX-wNC"/>
+                            <constraint firstItem="5w6-UP-OSB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="dVv-Gl-uiU"/>
+                            <constraint firstItem="KOh-5C-bFC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hHb-s7-9wz"/>
+                            <constraint firstItem="KOh-5C-bFC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hYg-tC-jDT"/>
+                            <constraint firstItem="uH3-YQ-XhN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="mcf-ga-Nzb"/>
+                            <constraint firstItem="uH3-YQ-XhN" firstAttribute="top" secondItem="5w6-UP-OSB" secondAttribute="bottom" constant="45" id="u4E-gT-HsT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zHE-ai-VCf"/>
+                    <connections>
+                        <outlet property="botonInicio" destination="5w6-UP-OSB" id="JZA-yV-KHL"/>
+                        <outlet property="botonSalir" destination="uH3-YQ-XhN" id="oxf-JP-pbS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="446.15384615384613" y="166.35071090047393"/>
+        </scene>
+        <!--Vista Menu Sentimiento-->
+        <scene sceneID="Db8-OJ-2Lo">
+            <objects>
+                <viewController id="GGn-B4-qSd" customClass="vistaMenuSentimiento" customModule="MeditacionApp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3pI-z5-Yci">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fondoMenu" translatesAutoresizingMaskIntoConstraints="NO" id="03I-Fv-zHZ">
+                                <rect key="frame" x="0.0" y="28" width="393" height="824"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="03I-Fv-zHZ" secondAttribute="height" multiplier="125:262" id="FgC-Tn-g10"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZt-9E-RK1">
+                                <rect key="frame" x="7" y="530" width="182" height="144"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenu1Angustia" title=""/>
+                                <connections>
+                                    <segue destination="fxD-35-U2c" kind="show" id="wQH-fd-aPI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZj-WL-eiE">
+                                <rect key="frame" x="7" y="337" width="182" height="144"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenu1Agobio" title=""/>
+                                <connections>
+                                    <segue destination="y4Y-4m-PjW" kind="show" id="tfs-YG-FRM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rw3-CO-OwB">
+                                <rect key="frame" x="195" y="530" width="182" height="144"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenu1Sentimiento" title=""/>
+                                <connections>
+                                    <segue destination="Vzm-34-lLv" kind="show" id="dN0-n4-42O"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sobre que te gustaria saber?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2X-GZ-jmW">
+                                <rect key="frame" x="64" y="235" width="265" height="62"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icE-bS-2uR">
+                                <rect key="frame" x="195" y="337" width="182" height="144"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenu1Amor" title=""/>
+                                <connections>
+                                    <segue destination="LBG-rj-hVe" kind="show" id="pd1-jp-gcJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AhK-DI-9pX"/>
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="03I-Fv-zHZ" firstAttribute="leading" secondItem="AhK-DI-9pX" secondAttribute="leading" id="47l-81-Qpz"/>
+                            <constraint firstAttribute="bottom" secondItem="03I-Fv-zHZ" secondAttribute="bottom" id="BvN-QP-sYU"/>
+                            <constraint firstItem="03I-Fv-zHZ" firstAttribute="trailing" secondItem="AhK-DI-9pX" secondAttribute="trailing" id="tj4-XC-ebB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="wxe-aZ-oge"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JRE-jY-uHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2244" y="2362.3152709359606"/>
+        </scene>
+        <!--Vista Sentimiento-->
+        <scene sceneID="Ekf-qM-sTu">
+            <objects>
+                <viewController id="Vzm-34-lLv" customClass="vistaSentimiento" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sh0-A2-dOj">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-zg-Lkf">
+                                <rect key="frame" x="16" y="318" width="361" height="440"/>
+                                <color key="backgroundColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonSentimiento" translatesAutoresizingMaskIntoConstraints="NO" id="DcE-Su-5m5">
+                                <rect key="frame" x="81" y="98" width="231" height="202"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="l4g-KV-HQW"/>
+                        <color key="backgroundColor" red="0.98431372549019602" green="0.94117647058823528" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="DcE-Su-5m5" firstAttribute="leading" secondItem="l4g-KV-HQW" secondAttribute="leading" constant="81" id="22F-in-cwH"/>
+                            <constraint firstItem="3qt-zg-Lkf" firstAttribute="centerX" secondItem="DcE-Su-5m5" secondAttribute="centerX" id="DRG-G4-x2K"/>
+                            <constraint firstItem="3qt-zg-Lkf" firstAttribute="leading" secondItem="Sh0-A2-dOj" secondAttribute="leadingMargin" id="NwL-dz-YRn"/>
+                            <constraint firstItem="3qt-zg-Lkf" firstAttribute="top" secondItem="DcE-Su-5m5" secondAttribute="bottom" constant="18" id="XLJ-4d-OIG"/>
+                            <constraint firstItem="DcE-Su-5m5" firstAttribute="top" secondItem="l4g-KV-HQW" secondAttribute="top" constant="54" id="qhS-1e-Z2d"/>
+                            <constraint firstItem="l4g-KV-HQW" firstAttribute="trailing" secondItem="DcE-Su-5m5" secondAttribute="trailing" constant="81" id="rnf-Bd-fAA"/>
+                            <constraint firstItem="l4g-KV-HQW" firstAttribute="bottom" secondItem="3qt-zg-Lkf" secondAttribute="bottom" constant="45" id="vBj-cZ-bdX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XZr-9s-d52"/>
+                    <connections>
+                        <outlet property="contenedorTexto" destination="3qt-zg-Lkf" id="cft-0b-Enx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5O6-X6-6Ll" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1268" y="3122.6600985221676"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Mkh-fu-7KH">
+            <objects>
+                <tabBarController id="ARx-MI-Guq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="uGc-ZM-WUT"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="b4A-Hr-wJ7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="selectedImageTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CRJ-S7-Cim" kind="relationship" relationship="viewControllers" id="6Gf-pE-IrU"/>
+                        <segue destination="rXF-nH-jHT" kind="relationship" relationship="viewControllers" id="HJG-Mj-p7p"/>
+                        <segue destination="EDA-Ot-M4t" kind="relationship" relationship="viewControllers" id="kHe-ng-3x9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UVA-F9-WbH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="166"/>
+        </scene>
+        <!--Inicio-->
+        <scene sceneID="vaw-jf-zjn">
+            <objects>
+                <navigationController id="CRJ-S7-Cim" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Inicio" id="b6R-gD-Ltd">
+                        <imageReference key="image" image="house.fill" catalog="system" symbolScale="large"/>
+                        <color key="badgeColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QeE-NG-EmS">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dsL-6f-vOn" kind="relationship" relationship="rootViewController" id="xOv-Ly-AoG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XNS-mb-XGY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-762" y="914"/>
+        </scene>
+        <!--Vista Menu Audios-->
+        <scene sceneID="w5S-8p-sic">
+            <objects>
+                <viewController id="EgG-KH-BVb" customClass="vistaMenuAudios" customModule="MeditacionApp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n6i-5q-UOX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="1iq-M7-X58">
+                                <rect key="frame" x="-3" y="98" width="399" height="754"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nXg-bq-Sbq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="a7X-43-SPy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Un-p6-RlM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="174" y="1669"/>
+        </scene>
+        <!--Meditación-->
+        <scene sceneID="s6V-12-34C">
+            <objects>
+                <navigationController id="rXF-nH-jHT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Meditación" id="T0o-eG-HiA">
+                        <imageReference key="image" image="face.smiling.inverse" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sgf-5x-mTn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EgG-KH-BVb" kind="relationship" relationship="rootViewController" id="v0O-ZQ-Zjn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OWs-XJ-W6N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="913"/>
+        </scene>
+        <!--Donaciones-->
+        <scene sceneID="DiN-sm-Z0i">
+            <objects>
+                <navigationController id="EDA-Ot-M4t" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Donaciones" id="jUD-Cw-wPA">
+                        <imageReference key="image" image="info.circle.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8eS-HR-yat">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jWc-ON-E70" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1074" y="913"/>
+        </scene>
+        <!--Vista Amor Propio-->
+        <scene sceneID="Ju8-6d-R1E">
+            <objects>
+                <viewController id="LBG-rj-hVe" customClass="vistaAmorPropio" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZV7-kg-Cxs">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aoy-KE-ti6">
+                                <rect key="frame" x="16" y="307" width="361" height="440"/>
+                                <color key="backgroundColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonAmorPropio" translatesAutoresizingMaskIntoConstraints="NO" id="c0j-HF-J8a">
+                                <rect key="frame" x="81" y="90" width="231" height="191"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="li3-e1-NTl"/>
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Aoy-KE-ti6" firstAttribute="top" secondItem="c0j-HF-J8a" secondAttribute="bottom" constant="26" id="95W-ji-xEY"/>
+                            <constraint firstItem="Aoy-KE-ti6" firstAttribute="centerX" secondItem="c0j-HF-J8a" secondAttribute="centerX" id="NcE-hj-9Km"/>
+                            <constraint firstItem="c0j-HF-J8a" firstAttribute="top" secondItem="li3-e1-NTl" secondAttribute="top" constant="46" id="U5t-Sg-lvW"/>
+                            <constraint firstItem="c0j-HF-J8a" firstAttribute="leading" secondItem="li3-e1-NTl" secondAttribute="leading" constant="81" id="ZTt-QE-8rF"/>
+                            <constraint firstItem="li3-e1-NTl" firstAttribute="bottom" secondItem="Aoy-KE-ti6" secondAttribute="bottom" constant="56" id="qlD-hc-jRM"/>
+                            <constraint firstItem="li3-e1-NTl" firstAttribute="trailing" secondItem="c0j-HF-J8a" secondAttribute="trailing" constant="81" id="xBu-Ia-xyG"/>
+                            <constraint firstItem="Aoy-KE-ti6" firstAttribute="leading" secondItem="ZV7-kg-Cxs" secondAttribute="leadingMargin" id="yOM-qJ-g2v"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="DE7-aq-BVV"/>
+                    <connections>
+                        <outlet property="contenedorTexto" destination="Aoy-KE-ti6" id="Ivh-mu-r23"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CB8-Ig-NEP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2666.4000000000001" y="3124.1379310344828"/>
+        </scene>
+        <!--Vista Ansiedad-->
+        <scene sceneID="XqD-Cb-34u">
+            <objects>
+                <viewController id="fxD-35-U2c" customClass="vistaAnsiedad" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TKd-Eh-hoD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uX-Kp-hxX">
+                                <rect key="frame" x="16" y="317" width="361" height="440"/>
+                                <color key="backgroundColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ImagimagenCorazonAnsiedad2" translatesAutoresizingMaskIntoConstraints="NO" id="wQD-SW-dgC">
+                                <rect key="frame" x="81" y="90" width="231" height="193"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IEq-mT-vcC"/>
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wQD-SW-dgC" firstAttribute="leading" secondItem="IEq-mT-vcC" secondAttribute="leading" constant="81" id="Aaf-Fu-BFU"/>
+                            <constraint firstItem="IEq-mT-vcC" firstAttribute="bottom" secondItem="2uX-Kp-hxX" secondAttribute="bottom" constant="46" id="X97-BM-Db4"/>
+                            <constraint firstItem="wQD-SW-dgC" firstAttribute="top" secondItem="IEq-mT-vcC" secondAttribute="top" constant="46" id="jkf-Yc-Gsf"/>
+                            <constraint firstItem="2uX-Kp-hxX" firstAttribute="centerX" secondItem="wQD-SW-dgC" secondAttribute="centerX" id="lAp-Qt-wm5"/>
+                            <constraint firstItem="2uX-Kp-hxX" firstAttribute="leading" secondItem="TKd-Eh-hoD" secondAttribute="leadingMargin" id="mBf-Od-d9M"/>
+                            <constraint firstItem="IEq-mT-vcC" firstAttribute="trailing" secondItem="wQD-SW-dgC" secondAttribute="trailing" constant="81" id="vdl-Kw-bgu"/>
+                            <constraint firstItem="2uX-Kp-hxX" firstAttribute="top" secondItem="wQD-SW-dgC" secondAttribute="bottom" constant="34" id="xh0-T1-5wZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qgy-44-wFu"/>
+                    <connections>
+                        <outlet property="contenedorTexto" destination="2uX-Kp-hxX" id="ChN-dc-vqy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UJR-fB-AWY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3420" y="3123.3990147783252"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qp2-kg-qvU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dsL-6f-vOn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="MaH-AR-9cT"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8R5-92-FJs">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GGn-B4-qSd" kind="relationship" relationship="rootViewController" id="RaO-Bn-jzk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aRa-ic-u4z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-787.02290076335873" y="1633.0985915492959"/>
+        </scene>
+        <!--Vista Agobio-->
+        <scene sceneID="YO8-N7-nsG">
+            <objects>
+                <viewController id="y4Y-4m-PjW" customClass="vistaAgobio" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F0c-sS-1iH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8JA-kr-DRv">
+                                <rect key="frame" x="16" y="313" width="361" height="440"/>
+                                <color key="backgroundColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonAgobio" translatesAutoresizingMaskIntoConstraints="NO" id="tUo-fm-BCr">
+                                <rect key="frame" x="81" y="90" width="231" height="197"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tyv-m5-B2y"/>
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="tUo-fm-BCr" firstAttribute="top" secondItem="tyv-m5-B2y" secondAttribute="top" constant="46" id="5C3-lP-xQZ"/>
+                            <constraint firstItem="tyv-m5-B2y" firstAttribute="trailing" secondItem="tUo-fm-BCr" secondAttribute="trailing" constant="81" id="JUZ-Zi-gs9"/>
+                            <constraint firstItem="tyv-m5-B2y" firstAttribute="bottom" secondItem="8JA-kr-DRv" secondAttribute="bottom" constant="50" id="WcA-fX-17q"/>
+                            <constraint firstItem="8JA-kr-DRv" firstAttribute="centerX" secondItem="tUo-fm-BCr" secondAttribute="centerX" id="fJ5-O3-zvd"/>
+                            <constraint firstItem="tUo-fm-BCr" firstAttribute="leading" secondItem="tyv-m5-B2y" secondAttribute="leading" constant="81" id="hXK-MR-ZOY"/>
+                            <constraint firstItem="8JA-kr-DRv" firstAttribute="leading" secondItem="F0c-sS-1iH" secondAttribute="leadingMargin" id="ngf-OJ-8Gh"/>
+                            <constraint firstItem="8JA-kr-DRv" firstAttribute="top" secondItem="tUo-fm-BCr" secondAttribute="bottom" constant="26" id="wYB-cY-ipx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="X4b-g4-cJA"/>
+                    <connections>
+                        <outlet property="contenedorTexto" destination="8JA-kr-DRv" id="dyj-71-xEj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blI-1W-Moa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1924" y="3124"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ImagimagenCorazonAnsiedad2" width="254" height="193"/>
+        <image name="botonMenu1Agobio" width="172" height="164"/>
+        <image name="botonMenu1Amor" width="172" height="164"/>
+        <image name="botonMenu1Angustia" width="172" height="164"/>
+        <image name="botonMenu1Sentimiento" width="172" height="164"/>
+        <image name="face.smiling.inverse" catalog="system" width="128" height="123"/>
+        <image name="fondoInterfaz" width="390" height="749"/>
+        <image name="fondoMenu" width="390" height="823"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="imagenCorazonAgobio" width="229" height="197"/>
+        <image name="imagenCorazonAmorPropio" width="239" height="191"/>
+        <image name="imagenCorazonSentimiento" width="254" height="202"/>
+        <image name="imagenInicio" width="1170" height="1491"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="logoInicio" width="213" height="169"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
