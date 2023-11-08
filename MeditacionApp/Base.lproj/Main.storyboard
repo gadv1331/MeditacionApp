@@ -92,7 +92,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fondoMenu" translatesAutoresizingMaskIntoConstraints="NO" id="03I-Fv-zHZ">
-                                <rect key="frame" x="0.0" y="28" width="393" height="824"/>
+                                <rect key="frame" x="0.0" y="28.333333333333314" width="393" height="823.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="03I-Fv-zHZ" secondAttribute="height" multiplier="125:262" id="FgC-Tn-g10"/>
                                 </constraints>
@@ -125,14 +125,6 @@
                                     <segue destination="Vzm-34-lLv" kind="show" id="dN0-n4-42O"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sobre que te gustaria saber?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2X-GZ-jmW">
-                                <rect key="frame" x="64" y="235" width="265" height="62"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icE-bS-2uR">
                                 <rect key="frame" x="195" y="337" width="182" height="144"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,6 +134,14 @@
                                     <segue destination="LBG-rj-hVe" kind="show" id="pd1-jp-gcJ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sobre que te gustaria conocer?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2X-GZ-jmW">
+                                <rect key="frame" x="16" y="235" width="361" height="62"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AhK-DI-9pX"/>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -155,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JRE-jY-uHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2244" y="2362.3152709359606"/>
+            <point key="canvasLocation" x="-3601" y="2361"/>
         </scene>
         <!--Vista Sentimiento-->
         <scene sceneID="Ekf-qM-sTu">
@@ -166,8 +166,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-zg-Lkf">
-                                <rect key="frame" x="16" y="318" width="361" height="440"/>
-                                <color key="backgroundColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <rect key="frame" x="16" y="308" width="361" height="450"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.078431372550000003" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonSentimiento" translatesAutoresizingMaskIntoConstraints="NO" id="DcE-Su-5m5">
                                 <rect key="frame" x="81" y="98" width="231" height="202"/>
@@ -179,7 +179,7 @@
                             <constraint firstItem="DcE-Su-5m5" firstAttribute="leading" secondItem="l4g-KV-HQW" secondAttribute="leading" constant="81" id="22F-in-cwH"/>
                             <constraint firstItem="3qt-zg-Lkf" firstAttribute="centerX" secondItem="DcE-Su-5m5" secondAttribute="centerX" id="DRG-G4-x2K"/>
                             <constraint firstItem="3qt-zg-Lkf" firstAttribute="leading" secondItem="Sh0-A2-dOj" secondAttribute="leadingMargin" id="NwL-dz-YRn"/>
-                            <constraint firstItem="3qt-zg-Lkf" firstAttribute="top" secondItem="DcE-Su-5m5" secondAttribute="bottom" constant="18" id="XLJ-4d-OIG"/>
+                            <constraint firstItem="3qt-zg-Lkf" firstAttribute="top" secondItem="DcE-Su-5m5" secondAttribute="bottom" constant="8" id="XLJ-4d-OIG"/>
                             <constraint firstItem="DcE-Su-5m5" firstAttribute="top" secondItem="l4g-KV-HQW" secondAttribute="top" constant="54" id="qhS-1e-Z2d"/>
                             <constraint firstItem="l4g-KV-HQW" firstAttribute="trailing" secondItem="DcE-Su-5m5" secondAttribute="trailing" constant="81" id="rnf-Bd-fAA"/>
                             <constraint firstItem="l4g-KV-HQW" firstAttribute="bottom" secondItem="3qt-zg-Lkf" secondAttribute="bottom" constant="45" id="vBj-cZ-bdX"/>
@@ -192,7 +192,127 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5O6-X6-6Ll" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1268" y="3122.6600985221676"/>
+            <point key="canvasLocation" x="-2399.2366412213742" y="3128.8732394366198"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SW0-Np-se8">
+            <objects>
+                <viewController id="5e0-bX-ADU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Tb-ZZ-ddZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zeu-dE-8S3">
+                                <rect key="frame" x="31" y="484" width="331" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenuAgobioAudio5min" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e56-s7-K4j">
+                                <rect key="frame" x="32" y="332" width="331" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenuAgobioAudio3min" title=" "/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="imagenMenuAgobioAudio" translatesAutoresizingMaskIntoConstraints="NO" id="VsX-7w-CCO">
+                                <rect key="frame" x="110" y="94" width="176" height="181"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhN-d0-XTt">
+                                <rect key="frame" x="32" y="645" width="331" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenuAgobioAudio10min" title=""/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1kh-kE-A5H"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CPT-TR-7a9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYh-Nt-wfw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-765.64885496183206" y="3128.1690140845071"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0ZV-K8-qae">
+            <objects>
+                <viewController id="E6v-FX-wK9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q5i-Tz-3hR">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7f-iw-hNk">
+                                <rect key="frame" x="32" y="645" width="331" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenuAmorAudio10min" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzd-MY-Vem">
+                                <rect key="frame" x="32" y="332" width="331" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenuAmorAudio5min" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rd-0T-UDV">
+                                <rect key="frame" x="32" y="484" width="331" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenuAmorAudio15min" title=""/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="imagenAmorMenuAudio" translatesAutoresizingMaskIntoConstraints="NO" id="tbv-Qn-sBY">
+                                <rect key="frame" x="88" y="100" width="218" height="176"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VjT-uX-T0M"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EJL-wA-r5U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Faf-PC-hY8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1138" y="3139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Uim-2D-YTD">
+            <objects>
+                <viewController id="92i-Hq-hZE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kz7-eB-Tvv">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBa-xN-7vn">
+                                <rect key="frame" x="32" y="332" width="331" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenuAnsiedad7min " title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lg3-kM-CEb">
+                                <rect key="frame" x="32" y="484" width="331" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenuAnsiedad10min" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iw3-bE-PSS">
+                                <rect key="frame" x="32" y="645" width="331" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenuAnsiedad5min" title=""/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="imagenMenuAnsiedadAudio" translatesAutoresizingMaskIntoConstraints="NO" id="aEg-q1-Nxq">
+                                <rect key="frame" x="94" y="70" width="205" height="226"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vrj-V9-7jQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QLy-Gg-X3z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EaN-qv-Hsd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="3140"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Mkh-fu-7KH">
@@ -247,17 +367,61 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="1iq-M7-X58">
                                 <rect key="frame" x="-3" y="98" width="399" height="754"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Que te gustaria reforzar?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HR0-JO-0X3">
+                                <rect key="frame" x="16" y="236" width="361" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="imagenCorazonAnsiedad" translatesAutoresizingMaskIntoConstraints="NO" id="l1I-RR-i0u">
+                                <rect key="frame" x="39" y="21" width="321" height="231"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm1-6O-Wnb">
+                                <rect key="frame" x="57" y="468" width="279" height="92"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenu2Ansiedad" title=""/>
+                                <connections>
+                                    <segue destination="92i-Hq-hZE" kind="show" id="EKm-qQ-WZA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l45-JS-hNk">
+                                <rect key="frame" x="57" y="612" width="279" height="92"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenu2AmorPropio" title=""/>
+                                <connections>
+                                    <segue destination="E6v-FX-wK9" kind="show" id="cB3-lY-6fL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yge-hw-yb0">
+                                <rect key="frame" x="57" y="324" width="279" height="92"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="botonMenu2Agobio" title=""/>
+                                <connections>
+                                    <segue destination="5e0-bX-ADU" kind="show" id="GBN-eY-BZe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nXg-bq-Sbq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="a7X-43-SPy"/>
+                    <connections>
+                        <outlet property="btnAgobioAudios" destination="Yge-hw-yb0" id="GdA-cX-fMV"/>
+                        <outlet property="btnAmorAudios" destination="l45-JS-hNk" id="E8G-2a-cbu"/>
+                        <outlet property="btnAnsiedadAudios" destination="gm1-6O-Wnb" id="yTq-Pk-jV6"/>
+                        <outlet property="textLabel" destination="HR0-JO-0X3" id="NoG-SW-DbX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Un-p6-RlM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="175" y="2413"/>
+            <point key="canvasLocation" x="173.2824427480916" y="2359.8591549295775"/>
         </scene>
         <!--Meditación-->
         <scene sceneID="s6V-12-34C">
@@ -304,7 +468,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aoy-KE-ti6">
                                 <rect key="frame" x="16" y="307" width="361" height="440"/>
-                                <color key="backgroundColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.078431372550000003" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonAmorPropio" translatesAutoresizingMaskIntoConstraints="NO" id="c0j-HF-J8a">
                                 <rect key="frame" x="81" y="90" width="231" height="191"/>
@@ -329,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CB8-Ig-NEP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2666.4000000000001" y="3124.1379310344828"/>
+            <point key="canvasLocation" x="-4005" y="3129"/>
         </scene>
         <!--Vista Ansiedad-->
         <scene sceneID="XqD-Cb-34u">
@@ -340,8 +504,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uX-Kp-hxX">
-                                <rect key="frame" x="16" y="317" width="361" height="440"/>
-                                <color key="backgroundColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <rect key="frame" x="16" y="309" width="361" height="448"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.078431372550000003" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ImagimagenCorazonAnsiedad2" translatesAutoresizingMaskIntoConstraints="NO" id="wQD-SW-dgC">
                                 <rect key="frame" x="81" y="90" width="231" height="193"/>
@@ -356,7 +520,7 @@
                             <constraint firstItem="2uX-Kp-hxX" firstAttribute="centerX" secondItem="wQD-SW-dgC" secondAttribute="centerX" id="lAp-Qt-wm5"/>
                             <constraint firstItem="2uX-Kp-hxX" firstAttribute="leading" secondItem="TKd-Eh-hoD" secondAttribute="leadingMargin" id="mBf-Od-d9M"/>
                             <constraint firstItem="IEq-mT-vcC" firstAttribute="trailing" secondItem="wQD-SW-dgC" secondAttribute="trailing" constant="81" id="vdl-Kw-bgu"/>
-                            <constraint firstItem="2uX-Kp-hxX" firstAttribute="top" secondItem="wQD-SW-dgC" secondAttribute="bottom" constant="34" id="xh0-T1-5wZ"/>
+                            <constraint firstItem="2uX-Kp-hxX" firstAttribute="top" secondItem="wQD-SW-dgC" secondAttribute="bottom" constant="26" id="xh0-T1-5wZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Qgy-44-wFu"/>
@@ -366,7 +530,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UJR-fB-AWY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3420" y="3123.3990147783252"/>
+            <point key="canvasLocation" x="-3144" y="3129"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qp2-kg-qvU">
@@ -397,7 +561,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8JA-kr-DRv">
                                 <rect key="frame" x="16" y="313" width="361" height="440"/>
-                                <color key="backgroundColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.53333333333333333" green="0.078431372549019607" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonAgobio" translatesAutoresizingMaskIntoConstraints="NO" id="tUo-fm-BCr">
                                 <rect key="frame" x="81" y="90" width="231" height="197"/>
@@ -422,7 +586,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="blI-1W-Moa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1924" y="3124"/>
+            <point key="canvasLocation" x="-4808" y="3129"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1vu-AQ-ut8">
@@ -450,14 +614,30 @@
         <image name="botonMenu1Amor" width="172" height="164"/>
         <image name="botonMenu1Angustia" width="172" height="164"/>
         <image name="botonMenu1Sentimiento" width="172" height="164"/>
+        <image name="botonMenu2Agobio" width="303" height="112"/>
+        <image name="botonMenu2AmorPropio" width="303" height="112"/>
+        <image name="botonMenu2Ansiedad" width="303" height="112"/>
+        <image name="botonMenuAgobioAudio10min" width="363" height="134"/>
+        <image name="botonMenuAgobioAudio3min" width="363" height="134"/>
+        <image name="botonMenuAgobioAudio5min" width="363" height="134"/>
+        <image name="botonMenuAmorAudio10min" width="363" height="134"/>
+        <image name="botonMenuAmorAudio15min" width="363" height="134"/>
+        <image name="botonMenuAmorAudio5min" width="363" height="134"/>
+        <image name="botonMenuAnsiedad10min" width="363" height="134"/>
+        <image name="botonMenuAnsiedad5min" width="363" height="134"/>
+        <image name="botonMenuAnsiedad7min " width="363" height="134"/>
         <image name="face.smiling.inverse" catalog="system" width="128" height="123"/>
         <image name="fondoInterfaz" width="390" height="749"/>
         <image name="fondoMenu" width="390" height="823"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="imagenAmorMenuAudio" width="190" height="152"/>
         <image name="imagenCorazonAgobio" width="229" height="197"/>
         <image name="imagenCorazonAmorPropio" width="239" height="191"/>
+        <image name="imagenCorazonAnsiedad" width="390" height="154"/>
         <image name="imagenCorazonSentimiento" width="254" height="202"/>
         <image name="imagenInicio" width="1170" height="1491"/>
+        <image name="imagenMenuAgobioAudio" width="176" height="181"/>
+        <image name="imagenMenuAnsiedadAudio" width="176" height="197"/>
         <image name="info.circle.fill" catalog="system" width="128" height="123"/>
         <image name="logoInicio" width="213" height="169"/>
         <systemColor name="systemBackgroundColor">

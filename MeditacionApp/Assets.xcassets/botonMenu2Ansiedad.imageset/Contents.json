@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "btnMenu2Ansiedad.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
