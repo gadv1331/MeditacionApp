@@ -44,6 +44,7 @@ class vistaSentimiento: UIViewController {
         Las activaciones fisiológicas más intensas son las que se producen ante situaciones de alarma, ya sean amenazas físicas o amenazas sociales. Sin embargo, hay veces que nuestro cuerpo reacciona, no sabemos muy bien por qué y nos asustamos precisamente por esta reacción. La falta de información y un nivel de activación elevado pueden hacer que algunas personas presten demasiada atención a estos cambios fisiológicos y sufran trastornos de pánico. Por esta razón es importante escuchar nuestro cuerpo, reflexionar sobre nuestros pensamientos y creencias; para poder sacarle provecho a las emociones.
 
         Por tanto, las emociones nos permiten vincularnos con el exterior y nuestro interior: Si ellas son manejadas con equilibrio nos ayudaran a funcionar mejor. Es por esto que la meditación ha resultado ser tan beneficiosa para la salud del individuo; ya que permite observarnos y conectarnos con nosotros.
+        
         """
         contentView.addSubview(textView)
 
