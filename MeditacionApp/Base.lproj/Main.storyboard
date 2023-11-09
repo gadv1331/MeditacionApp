@@ -1002,7 +1002,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="EJo-q6-kdP"/>
                     <connections>
-                        <outlet property="contenedorTexto" destination="Kkk-uN-MK0" id="nKy-MO-g4B"/>
+                        <outlet property="contenedorTexto" destination="Kkk-uN-MK0" id="sfW-3M-0ox"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gj6-ei-9mS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

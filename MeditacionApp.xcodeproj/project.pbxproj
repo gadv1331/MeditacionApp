@@ -24,9 +24,9 @@
 		898E20DC2AFD544700D6302D /* vistaAnsiedadAudio5min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E20DB2AFD544700D6302D /* vistaAnsiedadAudio5min.swift */; };
 		898E20DE2AFD546400D6302D /* vistaAnsiedadAudio7min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E20DD2AFD546400D6302D /* vistaAnsiedadAudio7min.swift */; };
 		898E20E02AFD548100D6302D /* vistaAnsiedadAudio10min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E20DF2AFD548100D6302D /* vistaAnsiedadAudio10min.swift */; };
-		898E20E22AFD5B1600D6302D /* vistaAmorAudio5min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E20E12AFD5B1600D6302D /* vistaAmorAudio5min.swift */; };
 		898E20E62AFD5B9100D6302D /* vistaAmorAudio10min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E20E52AFD5B9100D6302D /* vistaAmorAudio10min.swift */; };
 		898E20E82AFD5BA600D6302D /* vistaAmorAudio15min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E20E72AFD5BA600D6302D /* vistaAmorAudio15min.swift */; };
+		898E20EA2AFD601700D6302D /* vistaAmorAudio5min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E20E92AFD601700D6302D /* vistaAmorAudio5min.swift */; };
 		89A02CB52AC9FCCE0033D212 /* vistaAgobio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A02CB42AC9FCCE0033D212 /* vistaAgobio.swift */; };
 		89A02CB72ACA01E50033D212 /* vistaAmorPropio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A02CB62ACA01E50033D212 /* vistaAmorPropio.swift */; };
 		89A02CB92ACA08480033D212 /* vistaAnsiedad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A02CB82ACA08480033D212 /* vistaAnsiedad.swift */; };
@@ -74,9 +74,9 @@
 		898E20DB2AFD544700D6302D /* vistaAnsiedadAudio5min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAnsiedadAudio5min.swift; sourceTree = "<group>"; };
 		898E20DD2AFD546400D6302D /* vistaAnsiedadAudio7min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAnsiedadAudio7min.swift; sourceTree = "<group>"; };
 		898E20DF2AFD548100D6302D /* vistaAnsiedadAudio10min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAnsiedadAudio10min.swift; sourceTree = "<group>"; };
-		898E20E12AFD5B1600D6302D /* vistaAmorAudio5min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAmorAudio5min.swift; sourceTree = "<group>"; };
 		898E20E52AFD5B9100D6302D /* vistaAmorAudio10min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAmorAudio10min.swift; sourceTree = "<group>"; };
 		898E20E72AFD5BA600D6302D /* vistaAmorAudio15min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAmorAudio15min.swift; sourceTree = "<group>"; };
+		898E20E92AFD601700D6302D /* vistaAmorAudio5min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAmorAudio5min.swift; sourceTree = "<group>"; };
 		89A02CB42AC9FCCE0033D212 /* vistaAgobio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAgobio.swift; sourceTree = "<group>"; };
 		89A02CB62ACA01E50033D212 /* vistaAmorPropio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAmorPropio.swift; sourceTree = "<group>"; };
 		89A02CB82ACA08480033D212 /* vistaAnsiedad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAnsiedad.swift; sourceTree = "<group>"; };
@@ -154,9 +154,9 @@
 				898E20DB2AFD544700D6302D /* vistaAnsiedadAudio5min.swift */,
 				898E20DD2AFD546400D6302D /* vistaAnsiedadAudio7min.swift */,
 				898E20DF2AFD548100D6302D /* vistaAnsiedadAudio10min.swift */,
-				898E20E12AFD5B1600D6302D /* vistaAmorAudio5min.swift */,
 				898E20E52AFD5B9100D6302D /* vistaAmorAudio10min.swift */,
 				898E20E72AFD5BA600D6302D /* vistaAmorAudio15min.swift */,
+				898E20E92AFD601700D6302D /* vistaAmorAudio5min.swift */,
 			);
 			path = MeditacionApp;
 			sourceTree = "<group>";
@@ -313,6 +313,7 @@
 				89A2A9B42AC8AFE100058440 /* vistaSentimiento.swift in Sources */,
 				89809CD12ABB72000012D2BB /* MeditacionApp.xcdatamodeld in Sources */,
 				898E20DC2AFD544700D6302D /* vistaAnsiedadAudio5min.swift in Sources */,
+				898E20EA2AFD601700D6302D /* vistaAmorAudio5min.swift in Sources */,
 				898E20DE2AFD546400D6302D /* vistaAnsiedadAudio7min.swift in Sources */,
 				89A02CB92ACA08480033D212 /* vistaAnsiedad.swift in Sources */,
 				898E20E82AFD5BA600D6302D /* vistaAmorAudio15min.swift in Sources */,
@@ -327,7 +328,6 @@
 				89809CC72ABB72000012D2BB /* AppDelegate.swift in Sources */,
 				898E20E02AFD548100D6302D /* vistaAnsiedadAudio10min.swift in Sources */,
 				89809CC92ABB72000012D2BB /* SceneDelegate.swift in Sources */,
-				898E20E22AFD5B1600D6302D /* vistaAmorAudio5min.swift in Sources */,
 				89A02CB72ACA01E50033D212 /* vistaAmorPropio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
