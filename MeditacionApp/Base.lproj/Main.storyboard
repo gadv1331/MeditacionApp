@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -15,17 +15,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenInicio" translatesAutoresizingMaskIntoConstraints="NO" id="KOh-5C-bFC">
-                                <rect key="frame" x="0.0" y="-10" width="393" height="512.66666666666663"/>
+                                <rect key="frame" x="0.0" y="-10" width="428" height="558.33333333333337"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="KOh-5C-bFC" secondAttribute="height" multiplier="23:30" id="9pb-XP-L7I"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w6-UP-OSB">
-                                <rect key="frame" x="75" y="545.66666666666663" width="242" height="58.333333333333371"/>
+                                <rect key="frame" x="75" y="591.33333333333337" width="277" height="66.666666666666629"/>
                                 <color key="backgroundColor" red="0.56078431370000004" green="0.27058823529999998" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="5w6-UP-OSB" secondAttribute="height" multiplier="112:27" id="Hvc-6U-ZGh"/>
@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uH3-YQ-XhN">
-                                <rect key="frame" x="75" y="649" width="242" height="58.333333333333371"/>
+                                <rect key="frame" x="75" y="703" width="277" height="66.666666666666629"/>
                                 <color key="backgroundColor" red="0.56078431370000004" green="0.27058823529999998" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="uH3-YQ-XhN" secondAttribute="height" multiplier="112:27" id="VFO-ma-9xj"/>
@@ -50,7 +50,7 @@
                                 <state key="normal" title="Salir"/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logoInicio" translatesAutoresizingMaskIntoConstraints="NO" id="Bkr-gV-IyX">
-                                <rect key="frame" x="77" y="102.99999999999999" width="238" height="193.66666666666663"/>
+                                <rect key="frame" x="77" y="91" width="273" height="222"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Bkr-gV-IyX" secondAttribute="height" multiplier="220:179" id="zJ6-V0-qhx"/>
                                 </constraints>
@@ -88,18 +88,18 @@
             <objects>
                 <viewController id="GGn-B4-qSd" customClass="vistaMenuSentimiento" customModule="MeditacionApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3pI-z5-Yci">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fondoMenu" translatesAutoresizingMaskIntoConstraints="NO" id="03I-Fv-zHZ">
-                                <rect key="frame" x="0.0" y="28.333333333333314" width="393" height="823.66666666666674"/>
+                                <rect key="frame" x="0.0" y="29" width="428" height="897"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="03I-Fv-zHZ" secondAttribute="height" multiplier="125:262" id="FgC-Tn-g10"/>
                                 </constraints>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZt-9E-RK1">
-                                <rect key="frame" x="7" y="530" width="182" height="144"/>
+                                <rect key="frame" x="7" y="530" width="217" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu1Angustia" title=""/>
@@ -108,7 +108,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZj-WL-eiE">
-                                <rect key="frame" x="7" y="337" width="182" height="144"/>
+                                <rect key="frame" x="7" y="337" width="217" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu1Agobio" title=""/>
@@ -117,7 +117,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rw3-CO-OwB">
-                                <rect key="frame" x="195" y="530" width="182" height="144"/>
+                                <rect key="frame" x="195" y="530" width="217" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu1Sentimiento" title=""/>
@@ -126,7 +126,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icE-bS-2uR">
-                                <rect key="frame" x="195" y="337" width="182" height="144"/>
+                                <rect key="frame" x="195" y="337" width="217" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu1Amor" title=""/>
@@ -135,8 +135,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sobre que te gustaria conocer?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2X-GZ-jmW">
-                                <rect key="frame" x="16" y="235" width="361" height="62"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <rect key="frame" x="20" y="256" width="388" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -155,22 +155,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JRE-jY-uHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3601" y="2361"/>
+            <point key="canvasLocation" x="-3602.8037383177566" y="2360.4751619870412"/>
         </scene>
         <!--Vista Sentimiento-->
         <scene sceneID="Ekf-qM-sTu">
             <objects>
                 <viewController id="Vzm-34-lLv" customClass="vistaSentimiento" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sh0-A2-dOj">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-zg-Lkf">
-                                <rect key="frame" x="16" y="308" width="361" height="450"/>
+                                <rect key="frame" x="20" y="286" width="388" height="546"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.078431372550000003" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonSentimiento" translatesAutoresizingMaskIntoConstraints="NO" id="DcE-Su-5m5">
-                                <rect key="frame" x="81" y="98" width="231" height="202"/>
+                                <rect key="frame" x="81" y="54" width="266" height="202"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="l4g-KV-HQW"/>
@@ -179,8 +179,8 @@
                             <constraint firstItem="DcE-Su-5m5" firstAttribute="leading" secondItem="l4g-KV-HQW" secondAttribute="leading" constant="81" id="22F-in-cwH"/>
                             <constraint firstItem="3qt-zg-Lkf" firstAttribute="centerX" secondItem="DcE-Su-5m5" secondAttribute="centerX" id="DRG-G4-x2K"/>
                             <constraint firstItem="3qt-zg-Lkf" firstAttribute="leading" secondItem="Sh0-A2-dOj" secondAttribute="leadingMargin" id="NwL-dz-YRn"/>
-                            <constraint firstItem="3qt-zg-Lkf" firstAttribute="top" secondItem="DcE-Su-5m5" secondAttribute="bottom" constant="8" id="XLJ-4d-OIG"/>
-                            <constraint firstItem="DcE-Su-5m5" firstAttribute="top" secondItem="l4g-KV-HQW" secondAttribute="top" constant="54" id="qhS-1e-Z2d"/>
+                            <constraint firstItem="3qt-zg-Lkf" firstAttribute="top" secondItem="DcE-Su-5m5" secondAttribute="bottom" constant="30" id="qhE-Kb-rL1"/>
+                            <constraint firstItem="DcE-Su-5m5" firstAttribute="top" secondItem="l4g-KV-HQW" secondAttribute="top" constant="10" id="qhS-1e-Z2d"/>
                             <constraint firstItem="l4g-KV-HQW" firstAttribute="trailing" secondItem="DcE-Su-5m5" secondAttribute="trailing" constant="81" id="rnf-Bd-fAA"/>
                             <constraint firstItem="l4g-KV-HQW" firstAttribute="bottom" secondItem="3qt-zg-Lkf" secondAttribute="bottom" constant="45" id="vBj-cZ-bdX"/>
                         </constraints>
@@ -194,35 +194,44 @@
             </objects>
             <point key="canvasLocation" x="-2399.2366412213742" y="3128.8732394366198"/>
         </scene>
-        <!--View Controller-->
+        <!--Vista Menu Agobio Audio-->
         <scene sceneID="SW0-Np-se8">
             <objects>
-                <viewController id="5e0-bX-ADU" sceneMemberID="viewController">
+                <viewController id="5e0-bX-ADU" customClass="vistaMenuAgobioAudio" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Tb-ZZ-ddZ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zeu-dE-8S3">
-                                <rect key="frame" x="31" y="484" width="331" height="116"/>
+                                <rect key="frame" x="31" y="484" width="366" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAgobioAudio5min" title=""/>
+                                <connections>
+                                    <segue destination="dSj-j2-1Bt" kind="show" id="bIf-xC-RB4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e56-s7-K4j">
-                                <rect key="frame" x="32" y="332" width="331" height="116"/>
+                                <rect key="frame" x="32" y="332" width="366" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAgobioAudio3min" title=" "/>
+                                <connections>
+                                    <segue destination="Rt4-uF-dNU" kind="show" id="hfL-zJ-QZf"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="imagenMenuAgobioAudio" translatesAutoresizingMaskIntoConstraints="NO" id="VsX-7w-CCO">
-                                <rect key="frame" x="110" y="94" width="176" height="181"/>
+                                <rect key="frame" x="110" y="94" width="211" height="255"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhN-d0-XTt">
-                                <rect key="frame" x="32" y="645" width="331" height="116"/>
+                                <rect key="frame" x="32" y="645" width="366" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAgobioAudio10min" title=""/>
+                                <connections>
+                                    <segue destination="GhT-Th-3E8" kind="show" id="E9C-b9-y8k"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1kh-kE-A5H"/>
@@ -235,33 +244,112 @@
             <point key="canvasLocation" x="-765.64885496183206" y="3128.1690140845071"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="IEV-1S-ZPz">
+            <objects>
+                <viewController id="GhT-Th-3E8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ccj-u2-Bed">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mSe-Bl-a1Y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="L4s-q9-lUb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Urc-wz-NJp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2068" y="4015"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Nrh-6m-ZwU">
+            <objects>
+                <viewController id="dSj-j2-1Bt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J4e-nF-wbd">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="zfV-7h-BFS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w3P-lF-3E4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pto-Fp-Hco" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1355" y="4005"/>
+        </scene>
+        <!--Vista Agobio Audio 3min-->
+        <scene sceneID="bLi-9p-9Q7">
+            <objects>
+                <viewController id="Rt4-uF-dNU" customClass="vistaAgobioAudio3min" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pur-4D-iBI">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="jXM-os-3FF">
+                                <rect key="frame" x="-3" y="120" width="434" height="828"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dE5-Hd-AfD">
+                                <rect key="frame" x="16" y="162" width="396" height="599"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditacion para el agobio de 3 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIs-ci-Md7">
+                                <rect key="frame" x="56" y="94" width="316" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dOT-5f-Nzq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dIs-ci-Md7" firstAttribute="leading" secondItem="dOT-5f-Nzq" secondAttribute="leading" constant="56" id="0Gc-p7-l8g"/>
+                            <constraint firstItem="dIs-ci-Md7" firstAttribute="top" secondItem="dOT-5f-Nzq" secondAttribute="top" constant="50" id="hu1-At-T9p"/>
+                            <constraint firstItem="dOT-5f-Nzq" firstAttribute="bottom" secondItem="dE5-Hd-AfD" secondAttribute="bottom" constant="116" id="k3z-ia-jjl"/>
+                            <constraint firstItem="dE5-Hd-AfD" firstAttribute="top" secondItem="dIs-ci-Md7" secondAttribute="bottom" constant="20" id="nWt-fW-jUQ"/>
+                            <constraint firstItem="dOT-5f-Nzq" firstAttribute="trailing" secondItem="dE5-Hd-AfD" secondAttribute="trailing" constant="16" id="qLz-23-j6h"/>
+                            <constraint firstItem="dOT-5f-Nzq" firstAttribute="trailing" secondItem="dIs-ci-Md7" secondAttribute="trailing" constant="56" id="r2q-RN-UuV"/>
+                            <constraint firstItem="dE5-Hd-AfD" firstAttribute="leading" secondItem="dOT-5f-Nzq" secondAttribute="leading" constant="16" id="rv5-t2-zVN"/>
+                            <constraint firstItem="dE5-Hd-AfD" firstAttribute="top" secondItem="dIs-ci-Md7" secondAttribute="bottom" constant="20" id="vEe-qc-1NN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yVX-Oh-cpv"/>
+                    <connections>
+                        <outlet property="ContenedorTexto" destination="dE5-Hd-AfD" id="oMo-KJ-bFZ"/>
+                        <outlet property="contenedorTexto" destination="dE5-Hd-AfD" id="wSx-j8-tUt"/>
+                        <outlet property="contentView" destination="dE5-Hd-AfD" id="Jnw-0K-M6d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rdb-8e-w4B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-680.15267175572512" y="4004.929577464789"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="0ZV-K8-qae">
             <objects>
                 <viewController id="E6v-FX-wK9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q5i-Tz-3hR">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7f-iw-hNk">
-                                <rect key="frame" x="32" y="645" width="331" height="116"/>
+                                <rect key="frame" x="32" y="645" width="366" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAmorAudio10min" title=""/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzd-MY-Vem">
-                                <rect key="frame" x="32" y="332" width="331" height="116"/>
+                                <rect key="frame" x="32" y="332" width="366" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAmorAudio5min" title=""/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rd-0T-UDV">
-                                <rect key="frame" x="32" y="484" width="331" height="116"/>
+                                <rect key="frame" x="32" y="484" width="366" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAmorAudio15min" title=""/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="imagenAmorMenuAudio" translatesAutoresizingMaskIntoConstraints="NO" id="tbv-Qn-sBY">
-                                <rect key="frame" x="88" y="100" width="218" height="176"/>
+                                <rect key="frame" x="88" y="100" width="253" height="250"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -279,29 +367,29 @@
             <objects>
                 <viewController id="92i-Hq-hZE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kz7-eB-Tvv">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBa-xN-7vn">
-                                <rect key="frame" x="32" y="332" width="331" height="116"/>
+                                <rect key="frame" x="32" y="332" width="366" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAnsiedad7min " title=""/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lg3-kM-CEb">
-                                <rect key="frame" x="32" y="484" width="331" height="116"/>
+                                <rect key="frame" x="32" y="484" width="366" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAnsiedad10min" title=""/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iw3-bE-PSS">
-                                <rect key="frame" x="32" y="645" width="331" height="116"/>
+                                <rect key="frame" x="32" y="645" width="366" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAnsiedad5min" title=""/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="imagenMenuAnsiedadAudio" translatesAutoresizingMaskIntoConstraints="NO" id="aEg-q1-Nxq">
-                                <rect key="frame" x="94" y="70" width="205" height="226"/>
+                                <rect key="frame" x="94" y="70" width="240" height="300"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -346,7 +434,7 @@
                         <color key="badgeColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QeE-NG-EmS">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -362,26 +450,26 @@
             <objects>
                 <viewController id="EgG-KH-BVb" customClass="vistaMenuAudios" customModule="MeditacionApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n6i-5q-UOX">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="1iq-M7-X58">
-                                <rect key="frame" x="-3" y="98" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="98" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Que te gustaria reforzar?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HR0-JO-0X3">
-                                <rect key="frame" x="16" y="236" width="361" height="50"/>
+                                <rect key="frame" x="16" y="236" width="396" height="124"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="imagenCorazonAnsiedad" translatesAutoresizingMaskIntoConstraints="NO" id="l1I-RR-i0u">
-                                <rect key="frame" x="39" y="21" width="321" height="231"/>
+                                <rect key="frame" x="39" y="21" width="356" height="305"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm1-6O-Wnb">
-                                <rect key="frame" x="57" y="468" width="279" height="92"/>
+                                <rect key="frame" x="57" y="468" width="314" height="166"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu2Ansiedad" title=""/>
@@ -390,7 +478,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l45-JS-hNk">
-                                <rect key="frame" x="57" y="612" width="279" height="92"/>
+                                <rect key="frame" x="57" y="612" width="314" height="166"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu2AmorPropio" title=""/>
@@ -399,7 +487,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yge-hw-yb0">
-                                <rect key="frame" x="57" y="324" width="279" height="92"/>
+                                <rect key="frame" x="57" y="324" width="314" height="166"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu2Agobio" title=""/>
@@ -431,7 +519,7 @@
                         <imageReference key="image" image="face.smiling.inverse" catalog="system" symbolScale="large"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sgf-5x-mTn">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -450,7 +538,7 @@
                         <imageReference key="image" image="info.circle.fill" catalog="system" symbolScale="large"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8eS-HR-yat">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                 </navigationController>
@@ -463,23 +551,23 @@
             <objects>
                 <viewController id="LBG-rj-hVe" customClass="vistaAmorPropio" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZV7-kg-Cxs">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aoy-KE-ti6">
-                                <rect key="frame" x="16" y="307" width="361" height="440"/>
+                                <rect key="frame" x="20" y="275" width="388" height="546"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.078431372550000003" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonAmorPropio" translatesAutoresizingMaskIntoConstraints="NO" id="c0j-HF-J8a">
-                                <rect key="frame" x="81" y="90" width="231" height="191"/>
+                                <rect key="frame" x="81" y="54" width="266" height="191"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="li3-e1-NTl"/>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Aoy-KE-ti6" firstAttribute="top" secondItem="c0j-HF-J8a" secondAttribute="bottom" constant="26" id="95W-ji-xEY"/>
+                            <constraint firstItem="Aoy-KE-ti6" firstAttribute="top" secondItem="c0j-HF-J8a" secondAttribute="bottom" constant="30" id="95W-ji-xEY"/>
                             <constraint firstItem="Aoy-KE-ti6" firstAttribute="centerX" secondItem="c0j-HF-J8a" secondAttribute="centerX" id="NcE-hj-9Km"/>
-                            <constraint firstItem="c0j-HF-J8a" firstAttribute="top" secondItem="li3-e1-NTl" secondAttribute="top" constant="46" id="U5t-Sg-lvW"/>
+                            <constraint firstItem="c0j-HF-J8a" firstAttribute="top" secondItem="li3-e1-NTl" secondAttribute="top" constant="10" id="U5t-Sg-lvW"/>
                             <constraint firstItem="c0j-HF-J8a" firstAttribute="leading" secondItem="li3-e1-NTl" secondAttribute="leading" constant="81" id="ZTt-QE-8rF"/>
                             <constraint firstItem="li3-e1-NTl" firstAttribute="bottom" secondItem="Aoy-KE-ti6" secondAttribute="bottom" constant="56" id="qlD-hc-jRM"/>
                             <constraint firstItem="li3-e1-NTl" firstAttribute="trailing" secondItem="c0j-HF-J8a" secondAttribute="trailing" constant="81" id="xBu-Ia-xyG"/>
@@ -500,15 +588,15 @@
             <objects>
                 <viewController id="fxD-35-U2c" customClass="vistaAnsiedad" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TKd-Eh-hoD">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uX-Kp-hxX">
-                                <rect key="frame" x="16" y="309" width="361" height="448"/>
+                                <rect key="frame" x="20" y="277" width="388" height="554"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.078431372550000003" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ImagimagenCorazonAnsiedad2" translatesAutoresizingMaskIntoConstraints="NO" id="wQD-SW-dgC">
-                                <rect key="frame" x="81" y="90" width="231" height="193"/>
+                                <rect key="frame" x="81" y="54" width="266" height="193"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IEq-mT-vcC"/>
@@ -516,11 +604,11 @@
                         <constraints>
                             <constraint firstItem="wQD-SW-dgC" firstAttribute="leading" secondItem="IEq-mT-vcC" secondAttribute="leading" constant="81" id="Aaf-Fu-BFU"/>
                             <constraint firstItem="IEq-mT-vcC" firstAttribute="bottom" secondItem="2uX-Kp-hxX" secondAttribute="bottom" constant="46" id="X97-BM-Db4"/>
-                            <constraint firstItem="wQD-SW-dgC" firstAttribute="top" secondItem="IEq-mT-vcC" secondAttribute="top" constant="46" id="jkf-Yc-Gsf"/>
+                            <constraint firstItem="wQD-SW-dgC" firstAttribute="top" secondItem="IEq-mT-vcC" secondAttribute="top" constant="10" id="jkf-Yc-Gsf"/>
                             <constraint firstItem="2uX-Kp-hxX" firstAttribute="centerX" secondItem="wQD-SW-dgC" secondAttribute="centerX" id="lAp-Qt-wm5"/>
                             <constraint firstItem="2uX-Kp-hxX" firstAttribute="leading" secondItem="TKd-Eh-hoD" secondAttribute="leadingMargin" id="mBf-Od-d9M"/>
                             <constraint firstItem="IEq-mT-vcC" firstAttribute="trailing" secondItem="wQD-SW-dgC" secondAttribute="trailing" constant="81" id="vdl-Kw-bgu"/>
-                            <constraint firstItem="2uX-Kp-hxX" firstAttribute="top" secondItem="wQD-SW-dgC" secondAttribute="bottom" constant="26" id="xh0-T1-5wZ"/>
+                            <constraint firstItem="2uX-Kp-hxX" firstAttribute="top" secondItem="wQD-SW-dgC" secondAttribute="bottom" constant="30" id="xh0-T1-5wZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Qgy-44-wFu"/>
@@ -539,7 +627,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="MaH-AR-9cT"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8R5-92-FJs">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -556,27 +644,27 @@
             <objects>
                 <viewController id="y4Y-4m-PjW" customClass="vistaAgobio" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F0c-sS-1iH">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8JA-kr-DRv">
-                                <rect key="frame" x="16" y="313" width="361" height="440"/>
+                                <rect key="frame" x="20" y="281" width="388" height="546"/>
                                 <color key="backgroundColor" red="0.53333333333333333" green="0.078431372549019607" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonAgobio" translatesAutoresizingMaskIntoConstraints="NO" id="tUo-fm-BCr">
-                                <rect key="frame" x="81" y="90" width="231" height="197"/>
+                                <rect key="frame" x="81" y="54" width="266" height="197"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tyv-m5-B2y"/>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="tUo-fm-BCr" firstAttribute="top" secondItem="tyv-m5-B2y" secondAttribute="top" constant="46" id="5C3-lP-xQZ"/>
+                            <constraint firstItem="tUo-fm-BCr" firstAttribute="top" secondItem="tyv-m5-B2y" secondAttribute="top" constant="10" id="5C3-lP-xQZ"/>
                             <constraint firstItem="tyv-m5-B2y" firstAttribute="trailing" secondItem="tUo-fm-BCr" secondAttribute="trailing" constant="81" id="JUZ-Zi-gs9"/>
                             <constraint firstItem="tyv-m5-B2y" firstAttribute="bottom" secondItem="8JA-kr-DRv" secondAttribute="bottom" constant="50" id="WcA-fX-17q"/>
                             <constraint firstItem="8JA-kr-DRv" firstAttribute="centerX" secondItem="tUo-fm-BCr" secondAttribute="centerX" id="fJ5-O3-zvd"/>
                             <constraint firstItem="tUo-fm-BCr" firstAttribute="leading" secondItem="tyv-m5-B2y" secondAttribute="leading" constant="81" id="hXK-MR-ZOY"/>
                             <constraint firstItem="8JA-kr-DRv" firstAttribute="leading" secondItem="F0c-sS-1iH" secondAttribute="leadingMargin" id="ngf-OJ-8Gh"/>
-                            <constraint firstItem="8JA-kr-DRv" firstAttribute="top" secondItem="tUo-fm-BCr" secondAttribute="bottom" constant="26" id="wYB-cY-ipx"/>
+                            <constraint firstItem="8JA-kr-DRv" firstAttribute="top" secondItem="tUo-fm-BCr" secondAttribute="bottom" constant="30" id="wYB-cY-ipx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="X4b-g4-cJA"/>
@@ -595,7 +683,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="4fF-JA-ygZ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="A8m-TO-l7O">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
