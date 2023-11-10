@@ -35,7 +35,6 @@ class viewAgobioAudio10min: UIViewController {
         textView.isEditable = false
         textView.font = .systemFont(ofSize: 18)
         textView.text = """
-        
         Cierra tus ojos, toma dos respiraciones bien profundas. Inspira, aguanta y exhala… saca bien todo el aire. Nuevamente inspira, llena tus pulmones, aguanta y expulsa… Ahora respira normalmente, con cada respiración que tomas, siente más y más tranquilidad; más y más calma. Permite que tu respiración siga un ritmo fluido, tu mente está más tranquila, tu cuerpo esté más cómodo.
         
         Ahora imagina una luz suave bajando del cielo, una luz agradable que tiene el color que más te gusta. Esta luz puede ser cálida o fría, lo que te hace sentir mejor. La luz está pasando por todo tu cuerpo y te ayudará a relajarte.

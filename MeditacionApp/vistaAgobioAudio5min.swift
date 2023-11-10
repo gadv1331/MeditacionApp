@@ -35,7 +35,6 @@ class vistaAgobioAudio5min: UIViewController {
         textView.isEditable = false
         textView.font = .systemFont(ofSize: 18)
         textView.text = """
-        
         Si seleccionaste esta opción es porque te sientes mal, atrapado en una situación que no te gusta, te sientas bloqueado, sin saber que hacer o cómo salir de esa situación. Por eso es importante esto que estás haciendo, buscando un espacio para lograr la calma y tener una mejor reacción. Por eso, observa tu respiración, cómo estás respirando.
         
         Ya consciente de tu respiración, inhala profundamente, siente todo ese aire; ahora exhala, vota todo el aire que tienes en los pulmones…

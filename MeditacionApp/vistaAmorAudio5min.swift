@@ -36,7 +36,6 @@ class vistaAmorAudio5min: UIViewController {
         textView.isEditable = false
         textView.font = .systemFont(ofSize: 18)
         textView.text = """
-        
         Este momento es una invitación a que tengas un momento de amor contigo mismo. Muchas veces nos dejamos de lado, nos olvidamos de cuidarnos y de que tenemos que ser nuestra prioridad. Vamos a comenzar tomando una postura cómoda, soltando cualquier tensión que tengamos en el cuerpo. Tomamos una respiración profunda, juntamos las manos en el corazón y vamos a conectar con todo ese amor que tenemos dentro de nosotros. Aférrate a la luz de tu amor y repite conmigo las siguientes afirmaciones:
         
         El amor nace de mí y me rodea, estoy abierto y receptivo ante el amor, soy merecedor de todo lo bueno, me libero de las limitaciones de mi mente, estoy dispuesto a crear nuevas ideas con respecto a mí mismo, merezco abundancia y amor, merezco lo mejor, merezco ser todo lo que deseo ser, me siento feliz y cómodo siendo yo, irradio paz, amor y felicidad, disfruto de mi compañía, amo cada rincón de mi ser con amor incondicional, los demás reflejan el amor que tengo por mí, cada día tengo más confianza en mí mismo, el amor que siento por mí es el amor más grande que tengo, yo soy dueño de mis decisiones con felicidad y armonía, el amor inunda todo mi ser y vuelve a mí multiplicado, amo cada parte de mí, creo paz en mi mente y en mi corazón.

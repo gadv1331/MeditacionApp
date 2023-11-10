@@ -37,7 +37,6 @@ class vistaAmorAudio10min: UIViewController {
         textView.isEditable = false
         textView.font = .systemFont(ofSize: 18)
         textView.text = """
-        
         Ponte en una posición cómoda, la que tú elijas, inhala, exhala, inhala, exhala, inhala una vez más con fuerza, sosténlo, exhala, deja que tu cuerpo y tu mente se preparen para recibir el regalo que hoy vas a darles. Inhala, exhala, relaja tu cuello, siente todo tu cuerpo, relájate y permite que fluya la energía, pon una ligera sonrisa en tu boca, ahora sí estamos listos para repetir las frases que traerán amor propio y autoestima a tu vida, las frases que te harán recordar tu grandeza y vivirla en todo su esplendor.
         
         Confía en ti. Me amo incondicionalmente. Libero las creencias pasadas que no me hacen bien, las dejo ir. Me perdono por no creer en mí y al hacerlo, sano el sentimiento y evoluciono. Amo quien soy por dentro y por fuera, me acepto tal y como soy, reconozco que soy creación divina, confío en mí y en mi poder, yo soy todo, tengo tanto que comparto generosamente, brillo porque soy perfectible. Soy una persona digna de amar.

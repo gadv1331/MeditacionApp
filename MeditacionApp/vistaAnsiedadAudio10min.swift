@@ -37,7 +37,6 @@ class vistaAnsiedadAudio10min: UIViewController {
         textView.isEditable = false
         textView.font = .systemFont(ofSize: 18)
         textView.text = """
-        
         Siéntate de una manera cómoda. Puedes sentarte en una silla, sobre un cojín o tumbada en el suelo, como tu consideres que vas a estar más cómodo. Es importante que elijas un lugar en el que nadie te va a molestar los siguientes minutos. Puedes apoyar las manos sobre las rodillas o colocarlas con las palmas hacia arriba una encima de la otra.
         
          Una vez que encuentres tu posición con la espalda erguida cierra tus ojos, ve centrando tu atención en tu respiración. Vas a hacer un par de respiraciones profundas inhalando por la nariz exhalando por la boca para soltar tensiones y que puedas tomar consciencia de que estas parando.

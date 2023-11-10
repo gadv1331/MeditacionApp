@@ -38,7 +38,6 @@ class vistaAgobioAudio3min: UIViewController {
         textView.isEditable = false
         textView.font = .systemFont(ofSize: 18)
         textView.text = """
-        
         Cierra tus ojos. Tómate un momento para ti, para despejarte del mundo, para que recuperes la paz. Respira hondo, siente cómo el aire fluye a través de todo tu cuerpo, cómo comienzan a relajarse tus músculos y cómo la tensión se va liberando poco a poco.
         
          Respira nuevamente y exhala con calma, siente cómo las emociones y los pensamientos negativos desaparecen y dejan de atormentarte. Ahora que ya has despejado tu mente, recuerda que la adversidad no es un enemigo, al contrario, es un amigo que te ayudará a crecer, que te regalará fortaleza y te pulirá como el diamante que eres. El problema no es más grande que tú.

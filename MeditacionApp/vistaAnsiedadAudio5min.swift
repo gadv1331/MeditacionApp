@@ -36,7 +36,6 @@ class vistaAnsiedadAudio5min: UIViewController {
         textView.isEditable = false
         textView.font = .systemFont(ofSize: 18)
         textView.text = """
-        
         Busca una posición en la que te sientas cómodo, ya sea sentado o acostado, la que tú quieras, pero que te haga sentir relajado. Ahora, ve cerrando tus ojos y trae tu atención a tu respiración y observa cómo el aire entra y sale suavemente; deja que fluya a su ritmo y permite que tu respiración sea como debe ser. Suelta tus pensamientos y simplemente respira.
 
         ¿Cómo te sientes en este instante? ¿Qué es lo que te perturba? ¿Qué es aquello que te quita la paz? Este problema que tienes no es mayor que tus fortalezas y capacidades, es solamente un obstáculo que está puliendo el diamante que eres.

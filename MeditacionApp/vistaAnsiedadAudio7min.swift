@@ -35,7 +35,6 @@ class vistaAnsiedadAudio7min: UIViewController {
         textView.isEditable = false
         textView.font = .systemFont(ofSize: 18)
         textView.text = """
-        
         Ponte cómodo, colócate en una posición que tu cuerpo se sienta tranquilo y relajado, donde cada parte de él pueda reposar y descansar sin que nadie lo interrumpa. Observa tu respiración, ¿estás dejando que fluya con naturalidad? En su máxima expresión? Que cuando inhalas, tus pulmones realmente se pueden expandir? Y cuando exhalas, ¿puedes liberarte de todo lo que ya no necesitas?
         
         La ansiedad se produce cuando nuestra mente o nosotros queremos cambiar el pasado, cuando nos preocupamos excesivamente por el futuro, por cosas que todavía no han ocurrido o cuando no dejamos llevar por el sobre pensamiento. Estando conscientes y presentes en nuestra respiración, esa ansiedad se desvanece porque empezamos a disfrutar de lo que es real, estamos presentes en este momento, este momento de paz en el que te estás ocupando simplemente de ti, de respirar.

@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        botonInicio.layer.cornerRadius = 28
-        botonSalir.layer.cornerRadius = 28
+        botonInicio.layer.cornerRadius = 15
+        botonSalir.layer.cornerRadius = 15
         
         
         

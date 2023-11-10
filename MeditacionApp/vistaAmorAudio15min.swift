@@ -37,7 +37,6 @@ class vistaAmorAudio15min: UIViewController {
         textView.isEditable = false
         textView.font = .systemFont(ofSize: 18)
         textView.text = """
-        
         Busca un lugar que te inspire y te llene de calma, donde te sientas seguro y puedas concentrarte. Acuéstate con la espalda y el cuerpo recto, de forma que sientas la energía fluir libremente por todo tu cuerpo. Silencia tu mente y libera toda tensión, déjate ir y permítete relajar cada uno de los músculos de tu cuerpo, estás a salvo, pon tus manos juntas sobre tu pecho y cierra tus ojos. Respira profundamente y con calma, concéntrate en  cada inhalación , inhala despacio, sostén el aire y exhala soltando todos tus pensamientos, miedos y preocupaciones. Deja que se vayan. Sigue inhalando y libéralos con cada exhalación.
         
         Imagina que inhalas una cálida luz del color del sol, ella ingresa con tu respiración y llena cada parte de tu cuerpo, siente su calor, llena tus piernas, tu torso, tu espalda, tus brazos y tus manos. Ahora llega a tu corazón y lo ilumina por completo, sientes como se disuelve todo el miedo, toda la tensión y el dolor en esta luz sanadora; todas las cargas van desapareciendo. Ahora ilumina tu garganta y tu rostro. Llega a tu cabeza e ilumina tu mente, sientes la energía vibrar en todo tu ser. Esta amorosa luz te cubre por completo. Llena cada espacio, órgano y célula, soltanto ataduras y llenándote de paz.
@@ -61,8 +60,6 @@ class vistaAmorAudio15min: UIViewController {
         Repite con toda tu convicción: Me amo, me perdono y me libero, soy hermoso, me amo para siempre y estoy a salvo. Sal al mundo y expande tu luz, recuerda que tú eres amor, brilla intensamente.
         
         MEDITACIÓN TRANSCRITA DEL CANAL DE YOUTUBE CONEXIÓN AMOR, ESCRITA POR LA ESPECIALISTA MÍA LOVE.
-
-
 
         """
         contentView.addSubview(textView)
