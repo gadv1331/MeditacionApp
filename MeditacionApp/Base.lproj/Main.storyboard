@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -15,17 +15,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenInicio" translatesAutoresizingMaskIntoConstraints="NO" id="KOh-5C-bFC">
-                                <rect key="frame" x="0.0" y="-10" width="393" height="512.66666666666663"/>
+                                <rect key="frame" x="0.0" y="-10" width="428" height="558.33333333333337"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="KOh-5C-bFC" secondAttribute="height" multiplier="23:30" id="9pb-XP-L7I"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w6-UP-OSB">
-                                <rect key="frame" x="75" y="545.66666666666663" width="242" height="58.333333333333371"/>
+                                <rect key="frame" x="75" y="591.33333333333337" width="277" height="66.666666666666629"/>
                                 <color key="backgroundColor" red="0.56078431370000004" green="0.27058823529999998" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="5w6-UP-OSB" secondAttribute="height" multiplier="112:27" id="Hvc-6U-ZGh"/>
@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uH3-YQ-XhN">
-                                <rect key="frame" x="75" y="649" width="242" height="58.333333333333371"/>
+                                <rect key="frame" x="75" y="703" width="277" height="66.666666666666629"/>
                                 <color key="backgroundColor" red="0.56078431370000004" green="0.27058823529999998" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="uH3-YQ-XhN" secondAttribute="height" multiplier="112:27" id="VFO-ma-9xj"/>
@@ -50,7 +50,7 @@
                                 <state key="normal" title="Salir"/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logoInicio" translatesAutoresizingMaskIntoConstraints="NO" id="Bkr-gV-IyX">
-                                <rect key="frame" x="77" y="102.99999999999999" width="238" height="193.66666666666663"/>
+                                <rect key="frame" x="77" y="91" width="273" height="222"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Bkr-gV-IyX" secondAttribute="height" multiplier="220:179" id="zJ6-V0-qhx"/>
                                 </constraints>
@@ -88,16 +88,16 @@
             <objects>
                 <viewController id="GGn-B4-qSd" customClass="vistaMenuSentimiento" customModule="MeditacionApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3pI-z5-Yci">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoMenu" translatesAutoresizingMaskIntoConstraints="NO" id="03I-Fv-zHZ">
-                                <rect key="frame" x="0.0" y="28" width="393" height="824"/>
+                                <rect key="frame" x="0.0" y="28" width="428" height="898"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZt-9E-RK1">
-                                <rect key="frame" x="7" y="530" width="182" height="144"/>
+                                <rect key="frame" x="7" y="530" width="217" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu1Angustia" title=""/>
@@ -106,7 +106,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZj-WL-eiE">
-                                <rect key="frame" x="7" y="337" width="182" height="144"/>
+                                <rect key="frame" x="7" y="337" width="217" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu1Agobio" title=""/>
@@ -115,7 +115,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rw3-CO-OwB">
-                                <rect key="frame" x="195" y="530" width="182" height="144"/>
+                                <rect key="frame" x="195" y="530" width="217" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu1Sentimiento" title=""/>
@@ -124,7 +124,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icE-bS-2uR">
-                                <rect key="frame" x="195" y="337" width="182" height="144"/>
+                                <rect key="frame" x="195" y="337" width="217" height="218"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu1Amor" title=""/>
@@ -133,7 +133,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sobre que te gustaria conocer?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2X-GZ-jmW">
-                                <rect key="frame" x="0.0" y="216" width="393" height="83"/>
+                                <rect key="frame" x="0.0" y="216" width="428" height="157"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
@@ -155,14 +155,14 @@
             <objects>
                 <viewController id="Vzm-34-lLv" customClass="vistaSentimiento" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sh0-A2-dOj">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-zg-Lkf">
-                                <rect key="frame" x="16" y="266" width="361" height="517"/>
+                                <rect key="frame" x="20" y="266" width="388" height="591"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="heY-5i-lYM">
-                                        <rect key="frame" x="8" y="27" width="345" height="463"/>
+                                        <rect key="frame" x="8" y="27" width="372" height="537"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                 </subviews>
@@ -175,7 +175,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonSentimiento" translatesAutoresizingMaskIntoConstraints="NO" id="DcE-Su-5m5">
-                                <rect key="frame" x="81" y="54" width="231" height="202"/>
+                                <rect key="frame" x="81" y="54" width="266" height="202"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="l4g-KV-HQW"/>
@@ -205,11 +205,11 @@
             <objects>
                 <viewController id="5e0-bX-ADU" customClass="vistaMenuAgobioAudio" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Tb-ZZ-ddZ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zeu-dE-8S3">
-                                <rect key="frame" x="31" y="480" width="331" height="148"/>
+                                <rect key="frame" x="31" y="554" width="366" height="148"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAgobioAudio5min" title=""/>
                                 <connections>
@@ -217,7 +217,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e56-s7-K4j">
-                                <rect key="frame" x="32" y="332" width="331" height="148"/>
+                                <rect key="frame" x="32" y="406" width="366" height="148"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAgobioAudio3min" title=" ">
                                     <backgroundConfiguration key="background"/>
@@ -227,7 +227,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhN-d0-XTt">
-                                <rect key="frame" x="31" y="628" width="331" height="148"/>
+                                <rect key="frame" x="31" y="702" width="366" height="148"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAgobioAudio10min" title=""/>
                                 <connections>
@@ -235,7 +235,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenMenuAgobioAudio" translatesAutoresizingMaskIntoConstraints="NO" id="VsX-7w-CCO">
-                                <rect key="frame" x="108" y="44" width="176" height="280"/>
+                                <rect key="frame" x="108" y="44" width="211" height="354"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1kh-kE-A5H"/>
@@ -270,25 +270,25 @@
             <objects>
                 <viewController id="dSj-j2-1Bt" customClass="vistaAgobioAudio5min" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J4e-nF-wbd">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="UT0-AO-iqL">
-                                <rect key="frame" x="-3" y="120" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="120" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditacion para el agobio de 5 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSe-aQ-Cxp">
-                                <rect key="frame" x="56" y="94" width="281" height="48"/>
+                                <rect key="frame" x="56" y="94" width="316" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="evY-7S-B2O">
-                                <rect key="frame" x="16" y="162" width="361" height="525"/>
+                                <rect key="frame" x="16" y="162" width="396" height="599"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35W-jk-mG2">
-                                <rect key="frame" x="88" y="720" width="217" height="54"/>
+                                <rect key="frame" x="88" y="794" width="252" height="54"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reproducir">
                                     <backgroundConfiguration key="background" cornerRadius="13">
@@ -318,6 +318,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="w3P-lF-3E4"/>
                     <connections>
+                        <outlet property="btnReproducir" destination="35W-jk-mG2" id="QPV-nJ-Xp0"/>
                         <outlet property="contenedorTexto" destination="evY-7S-B2O" id="XQi-Cy-otl"/>
                     </connections>
                 </viewController>
@@ -330,25 +331,25 @@
             <objects>
                 <viewController id="Rt4-uF-dNU" customClass="vistaAgobioAudio3min" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pur-4D-iBI">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="jXM-os-3FF">
-                                <rect key="frame" x="-3" y="120" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="120" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dE5-Hd-AfD">
-                                <rect key="frame" x="16" y="162" width="361" height="525"/>
+                                <rect key="frame" x="16" y="162" width="396" height="599"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditacion para el agobio de 3 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIs-ci-Md7">
-                                <rect key="frame" x="56" y="94" width="281" height="48"/>
+                                <rect key="frame" x="56" y="94" width="316" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHD-0z-q6W">
-                                <rect key="frame" x="88" y="720" width="217" height="54"/>
+                                <rect key="frame" x="88" y="794" width="252" height="54"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reproducir">
                                     <backgroundConfiguration key="background" cornerRadius="13">
@@ -379,6 +380,7 @@
                     <navigationItem key="navigationItem" id="yVX-Oh-cpv"/>
                     <connections>
                         <outlet property="ContenedorTexto" destination="dE5-Hd-AfD" id="oMo-KJ-bFZ"/>
+                        <outlet property="btnReproducir" destination="gHD-0z-q6W" id="uc8-rF-E4Q"/>
                         <outlet property="contenedorTexto" destination="dE5-Hd-AfD" id="wSx-j8-tUt"/>
                         <outlet property="contentView" destination="dE5-Hd-AfD" id="Jnw-0K-M6d"/>
                     </connections>
@@ -392,11 +394,11 @@
             <objects>
                 <viewController id="E6v-FX-wK9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q5i-Tz-3hR">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzd-MY-Vem">
-                                <rect key="frame" x="32" y="333" width="329" height="148"/>
+                                <rect key="frame" x="32" y="407" width="364" height="148"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAmorAudio5min" title=""/>
                                 <connections>
@@ -404,10 +406,10 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenAmorMenuAudio" translatesAutoresizingMaskIntoConstraints="NO" id="tbv-Qn-sBY">
-                                <rect key="frame" x="74" y="44" width="245" height="281"/>
+                                <rect key="frame" x="74" y="44" width="280" height="355"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7f-iw-hNk">
-                                <rect key="frame" x="32" y="481" width="329" height="148"/>
+                                <rect key="frame" x="32" y="555" width="364" height="148"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAmorAudio10min" title=""/>
                                 <connections>
@@ -415,7 +417,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rd-0T-UDV">
-                                <rect key="frame" x="32" y="629" width="329" height="148"/>
+                                <rect key="frame" x="32" y="703" width="364" height="148"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAmorAudio15min" title=""/>
                                 <connections>
@@ -454,11 +456,11 @@
             <objects>
                 <viewController id="92i-Hq-hZE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kz7-eB-Tvv">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBa-xN-7vn">
-                                <rect key="frame" x="32" y="480" width="329" height="148"/>
+                                <rect key="frame" x="32" y="554" width="364" height="148"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAnsiedad7min " title=""/>
                                 <connections>
@@ -466,7 +468,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lg3-kM-CEb">
-                                <rect key="frame" x="32" y="628" width="329" height="148"/>
+                                <rect key="frame" x="32" y="702" width="364" height="148"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAnsiedad10min" title=""/>
                                 <connections>
@@ -474,10 +476,10 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenMenuAnsiedadAudio" translatesAutoresizingMaskIntoConstraints="NO" id="aEg-q1-Nxq">
-                                <rect key="frame" x="94" y="44" width="221" height="280"/>
+                                <rect key="frame" x="94" y="44" width="256" height="354"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iw3-bE-PSS">
-                                <rect key="frame" x="32" y="332" width="329" height="148"/>
+                                <rect key="frame" x="32" y="406" width="364" height="148"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenuAnsiedad5min" title=""/>
                                 <connections>
@@ -544,7 +546,7 @@
                         <color key="badgeColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QeE-NG-EmS">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -560,18 +562,18 @@
             <objects>
                 <viewController id="EgG-KH-BVb" customClass="vistaMenuAudios" customModule="MeditacionApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n6i-5q-UOX">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="1iq-M7-X58">
-                                <rect key="frame" x="-3" y="98" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="98" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonAnsiedad" translatesAutoresizingMaskIntoConstraints="NO" id="l1I-RR-i0u">
-                                <rect key="frame" x="39" y="67" width="315" height="155"/>
+                                <rect key="frame" x="39" y="67" width="350" height="229"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm1-6O-Wnb">
-                                <rect key="frame" x="48" y="477" width="297" height="126"/>
+                                <rect key="frame" x="48" y="551" width="332" height="126"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu2Ansiedad" title=""/>
                                 <connections>
@@ -579,7 +581,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l45-JS-hNk">
-                                <rect key="frame" x="48" y="615" width="297" height="126"/>
+                                <rect key="frame" x="48" y="689" width="332" height="126"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu2AmorPropio" title=""/>
                                 <connections>
@@ -587,7 +589,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yge-hw-yb0">
-                                <rect key="frame" x="48" y="339" width="297" height="126"/>
+                                <rect key="frame" x="48" y="413" width="332" height="126"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="botonMenu2Agobio" title=""/>
                                 <connections>
@@ -595,7 +597,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Que te gustaria reforzar?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HR0-JO-0X3">
-                                <rect key="frame" x="16" y="237" width="361" height="70"/>
+                                <rect key="frame" x="16" y="311" width="396" height="70"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -646,7 +648,7 @@
                         <imageReference key="image" image="face.smiling.inverse" catalog="system" symbolScale="large"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sgf-5x-mTn">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -665,7 +667,7 @@
                         <imageReference key="image" image="info.circle.fill" catalog="system" symbolScale="large"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8eS-HR-yat">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -681,14 +683,14 @@
             <objects>
                 <viewController id="LBG-rj-hVe" customClass="vistaAmorPropio" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZV7-kg-Cxs">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aoy-KE-ti6">
-                                <rect key="frame" x="16" y="255" width="361" height="528"/>
+                                <rect key="frame" x="16" y="255" width="396" height="602"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FAB-L9-aaD">
-                                        <rect key="frame" x="8" y="27" width="345" height="474"/>
+                                        <rect key="frame" x="8" y="27" width="380" height="548"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                 </subviews>
@@ -701,7 +703,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonAmorPropio" translatesAutoresizingMaskIntoConstraints="NO" id="c0j-HF-J8a">
-                                <rect key="frame" x="81" y="54" width="231" height="191"/>
+                                <rect key="frame" x="81" y="54" width="266" height="191"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="li3-e1-NTl"/>
@@ -731,14 +733,14 @@
             <objects>
                 <viewController id="fxD-35-U2c" customClass="vistaAnsiedad" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TKd-Eh-hoD">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uX-Kp-hxX">
-                                <rect key="frame" x="16" y="257" width="361" height="526"/>
+                                <rect key="frame" x="20" y="257" width="388" height="600"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3xM-bg-anR">
-                                        <rect key="frame" x="8" y="27" width="345" height="472"/>
+                                        <rect key="frame" x="8" y="27" width="372" height="546"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                 </subviews>
@@ -751,7 +753,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ImagimagenCorazonAnsiedad2" translatesAutoresizingMaskIntoConstraints="NO" id="wQD-SW-dgC">
-                                <rect key="frame" x="81" y="54" width="231" height="193"/>
+                                <rect key="frame" x="81" y="54" width="266" height="193"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IEq-mT-vcC"/>
@@ -783,7 +785,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="MaH-AR-9cT"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8R5-92-FJs">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -800,14 +802,14 @@
             <objects>
                 <viewController id="y4Y-4m-PjW" customClass="vistaAgobio" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F0c-sS-1iH">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8JA-kr-DRv">
-                                <rect key="frame" x="16" y="261" width="361" height="522"/>
+                                <rect key="frame" x="16" y="261" width="396" height="596"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OPW-6G-RjI">
-                                        <rect key="frame" x="8" y="27" width="345" height="468"/>
+                                        <rect key="frame" x="8" y="27" width="380" height="542"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                 </subviews>
@@ -820,7 +822,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenCorazonAgobio" translatesAutoresizingMaskIntoConstraints="NO" id="tUo-fm-BCr">
-                                <rect key="frame" x="81" y="54" width="231" height="197"/>
+                                <rect key="frame" x="81" y="54" width="266" height="197"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tyv-m5-B2y"/>
@@ -852,7 +854,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="4fF-JA-ygZ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="A8m-TO-l7O">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -869,190 +871,149 @@
             <objects>
                 <viewController id="3nK-uI-ET8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hFo-QO-zLR">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="imagenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xUG-Cu-MSL">
-                                <rect key="frame" x="84" y="64" width="224" height="174"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quienes somos?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmT-Xu-XGo">
-                                <rect key="frame" x="33" y="248" width="170" height="27"/>
+                                <rect key="frame" x="20" y="93" width="205" height="27"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" red="0.40392156862745099" green="0.094117647058823528" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZ6-tN-aXN">
-                                <rect key="frame" x="58" y="283" width="301" height="106"/>
+                                <rect key="frame" x="36" y="128" width="336" height="114.66666666666669"/>
                                 <string key="text">La Fundación Ayúdate es una organización no gubernamental sin fines de lucro que tiene como misión atender, investigar, formar y prevenir los trastornos de comportamiento alimentario para mejorar la calidad de vida del venezolano.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kpa-ne-bbV">
-                                <rect key="frame" x="34" y="397" width="325" height="2"/>
+                                <rect key="frame" x="20" y="257.66666666666669" width="388" height="2"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.1333333333" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="Mjj-bZ-WFB"/>
+                                </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deseas donar?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOi-bq-Df2">
-                                <rect key="frame" x="34" y="412" width="170" height="26"/>
+                                <rect key="frame" x="20" y="273" width="205" height="27"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5h-Ka-5vn">
-                                <rect key="frame" x="58" y="446" width="301" height="83.666666666666629"/>
-                                <string key="text">Si le gustaría apoyarnos en nuestra causa aquí le dejamos 3 opciones de donación, si desea donar una cantidad especifica que no aparece aqui por favor pónganse en contacto con nosotros.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9m-U3-r1R">
-                                <rect key="frame" x="38" y="550.66666666666663" width="100" height="40.333333333333371"/>
+                                <rect key="frame" x="144" y="430" width="140" height="47"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="3pZ-Fv-bNu"/>
+                                    <constraint firstAttribute="height" constant="47" id="fWL-uu-XrX"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="5$">
+                                <buttonConfiguration key="configuration" style="plain" title="7$">
                                     <backgroundConfiguration key="background" cornerRadius="8">
                                         <color key="backgroundColor" red="0.27843137254901962" green="0.13333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syQ-f5-BMa">
-                                <rect key="frame" x="146" y="550.66666666666663" width="100" height="40.333333333333371"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="De6-Hi-EAq"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="10$">
-                                    <backgroundConfiguration key="background" cornerRadius="8">
-                                        <color key="backgroundColor" red="0.2784313725" green="0.1333333333" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzH-Co-SRf">
+                                <rect key="frame" x="36" y="621" width="292.33333333333331" height="38.333333333333371"/>
+                                <string key="text">Información de contacto: 0414 3023722
+02129762146</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.2784313725" green="0.1333333333" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdr-DM-x8E">
+                                <rect key="frame" x="38" y="308" width="336" height="114.66666666666669"/>
+                                <string key="text">Si desea apoyarnos en nuestra causa aquí le dejamos la opcion de donar 7$ para apoyarnos.En caso de que quiera donar otra cantidad o con otro metodo de pago ,por favor contactenos , estaremos agradecidos de antenderlo.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fMg-IB-GVo">
-                                <rect key="frame" x="34" y="609" width="325" height="2"/>
+                                <rect key="frame" x="20" y="495" width="388" height="2"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.1333333333" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="2KH-eW-MCR"/>
+                                </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informacion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEo-rI-0tD">
-                                <rect key="frame" x="33" y="619" width="170" height="26.333333333333371"/>
+                                <rect key="frame" x="20" y="511.99999999999994" width="205" height="26.333333333333314"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Localización: Calle Las Cocuizas, Qta. La Juanera / CARACAS / 1080 / MIRANDA / Venezuela " lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lq1-ds-hHX">
-                                <rect key="frame" x="58" y="652.33333333333337" width="301" height="57.666666666666629"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <rect key="frame" x="36" y="546" width="336" height="57.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWk-Ga-eYX">
-                                <rect key="frame" x="254" y="550.66666666666663" width="101" height="40.333333333333371"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="15$">
-                                    <backgroundConfiguration key="background" cornerRadius="8">
-                                        <color key="backgroundColor" red="0.2784313725" green="0.1333333333" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzH-Co-SRf">
-                                <rect key="frame" x="58" y="710" width="307" height="48"/>
-                                <string key="text">Información de contacto: 0414 3023722
-02129762146</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.2784313725" green="0.1333333333" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dt8-eV-HXj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="qmT-Xu-XGo" secondAttribute="bottom" constant="528" id="0Pg-kV-H8w"/>
-                            <constraint firstItem="qmT-Xu-XGo" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="33" id="3Di-cZ-ocm"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fMg-IB-GVo" secondAttribute="trailing" constant="18" id="4Ge-zl-qUG"/>
-                            <constraint firstItem="kpa-ne-bbV" firstAttribute="leading" secondItem="hFo-QO-zLR" secondAttribute="leadingMargin" constant="18" id="5a2-j4-yVs"/>
-                            <constraint firstItem="xUG-Cu-MSL" firstAttribute="top" secondItem="dt8-eV-HXj" secondAttribute="top" constant="20" id="6Cu-FM-Zj7"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="Lq1-ds-hHX" secondAttribute="bottom" constant="93" id="6YZ-Z6-bwt"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="pEo-rI-0tD" secondAttribute="bottom" constant="157.66666666666663" id="7J5-MY-jCo"/>
-                            <constraint firstItem="xUG-Cu-MSL" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="84" id="7qm-Hd-9Mr"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="N9m-U3-r1R" secondAttribute="bottom" constant="212" id="8ge-lf-urr"/>
-                            <constraint firstItem="N9m-U3-r1R" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="38" id="8zC-FC-jag"/>
-                            <constraint firstItem="AOi-bq-Df2" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="34" id="AH1-Mp-H8p"/>
-                            <constraint firstItem="qmT-Xu-XGo" firstAttribute="top" secondItem="xUG-Cu-MSL" secondAttribute="bottom" constant="10" id="FfL-Sh-0R0"/>
-                            <constraint firstItem="fMg-IB-GVo" firstAttribute="top" secondItem="N9m-U3-r1R" secondAttribute="bottom" constant="18" id="GGT-xN-4Vh"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="kpa-ne-bbV" secondAttribute="trailing" constant="18" id="J4x-Tu-N2Z"/>
-                            <constraint firstItem="MZ6-tN-aXN" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="58" id="JYq-5S-APL"/>
-                            <constraint firstItem="Lq1-ds-hHX" firstAttribute="top" secondItem="pEo-rI-0tD" secondAttribute="bottom" constant="7" id="Lag-xb-wpc"/>
-                            <constraint firstItem="Lq1-ds-hHX" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="58" id="NAg-8G-oWh"/>
-                            <constraint firstItem="fMg-IB-GVo" firstAttribute="leading" secondItem="hFo-QO-zLR" secondAttribute="leadingMargin" constant="18" id="NXT-86-UA9"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="kpa-ne-bbV" secondAttribute="bottom" constant="404" id="OvC-4u-chv"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="ZWk-Ga-eYX" secondAttribute="trailing" constant="38" id="RTa-Xt-yat"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="qmT-Xu-XGo" secondAttribute="trailing" constant="190" id="Rfl-sf-2xB"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="syQ-f5-BMa" secondAttribute="bottom" constant="212" id="Rxg-P6-uwH"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="fMg-IB-GVo" secondAttribute="bottom" constant="192" id="UbD-fn-yQ8"/>
-                            <constraint firstItem="OzH-Co-SRf" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="58" id="Vyw-Zo-Jj0"/>
-                            <constraint firstItem="z5h-Ka-5vn" firstAttribute="top" secondItem="AOi-bq-Df2" secondAttribute="bottom" constant="8" symbolic="YES" id="ZhB-eK-ahl"/>
-                            <constraint firstItem="MZ6-tN-aXN" firstAttribute="top" secondItem="qmT-Xu-XGo" secondAttribute="bottom" constant="8" symbolic="YES" id="bxn-Ot-6Ww"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="xUG-Cu-MSL" secondAttribute="trailing" constant="85" id="cm3-m9-LM5"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="pEo-rI-0tD" secondAttribute="trailing" constant="190" id="cqn-HZ-Rqe"/>
-                            <constraint firstItem="pEo-rI-0tD" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="33" id="e2A-h3-22T"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="MZ6-tN-aXN" secondAttribute="trailing" constant="34" id="f3V-Xg-ySL"/>
-                            <constraint firstItem="syQ-f5-BMa" firstAttribute="leading" secondItem="N9m-U3-r1R" secondAttribute="trailing" constant="8" id="fhB-Lp-Q6r"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="OzH-Co-SRf" secondAttribute="trailing" constant="28" id="gld-sR-cGl"/>
-                            <constraint firstItem="OzH-Co-SRf" firstAttribute="top" secondItem="Lq1-ds-hHX" secondAttribute="bottom" id="gwI-9b-htV"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="Lq1-ds-hHX" secondAttribute="trailing" constant="34" id="hfo-95-d8u"/>
-                            <constraint firstItem="syQ-f5-BMa" firstAttribute="top" secondItem="z5h-Ka-5vn" secondAttribute="bottom" constant="21" id="j61-wU-Ysg"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="MZ6-tN-aXN" secondAttribute="bottom" constant="414" id="jJm-gp-zI5"/>
-                            <constraint firstItem="ZWk-Ga-eYX" firstAttribute="leading" secondItem="syQ-f5-BMa" secondAttribute="trailing" constant="8" id="mAZ-yI-R5p"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="ZWk-Ga-eYX" secondAttribute="bottom" constant="212" id="n0X-h8-Mds"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="AOi-bq-Df2" secondAttribute="trailing" constant="189" id="nlM-rt-GeW"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="xUG-Cu-MSL" secondAttribute="bottom" constant="565" id="nyZ-BJ-nRp"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="AOi-bq-Df2" secondAttribute="bottom" constant="365" id="oHP-mA-pWW"/>
-                            <constraint firstItem="N9m-U3-r1R" firstAttribute="top" secondItem="z5h-Ka-5vn" secondAttribute="bottom" constant="21" id="p4q-Ty-Wcl"/>
-                            <constraint firstItem="syQ-f5-BMa" firstAttribute="leading" secondItem="N9m-U3-r1R" secondAttribute="trailing" constant="8" id="qET-gz-huC"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="z5h-Ka-5vn" secondAttribute="bottom" constant="273.32999999999998" id="qkn-Tb-2Eb"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="z5h-Ka-5vn" secondAttribute="trailing" constant="34" id="rXg-2H-es4"/>
-                            <constraint firstItem="ZWk-Ga-eYX" firstAttribute="top" secondItem="z5h-Ka-5vn" secondAttribute="bottom" constant="21" id="tWH-s5-7Yq"/>
-                            <constraint firstItem="z5h-Ka-5vn" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="58" id="w9b-8c-O4R"/>
-                            <constraint firstItem="dt8-eV-HXj" firstAttribute="bottom" secondItem="OzH-Co-SRf" secondAttribute="bottom" constant="45" id="yi4-08-ZZo"/>
-                            <constraint firstItem="kpa-ne-bbV" firstAttribute="top" secondItem="MZ6-tN-aXN" secondAttribute="bottom" constant="8" symbolic="YES" id="zcq-Qx-xbC"/>
+                            <constraint firstItem="AOi-bq-Df2" firstAttribute="leading" secondItem="kpa-ne-bbV" secondAttribute="leading" id="0O9-dj-HsF"/>
+                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OzH-Co-SRf" secondAttribute="trailing" symbolic="YES" id="0Vy-Bu-y4G"/>
+                            <constraint firstItem="qmT-Xu-XGo" firstAttribute="leading" secondItem="hFo-QO-zLR" secondAttribute="leadingMargin" id="2DC-hA-RGH"/>
+                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="kdr-DM-x8E" secondAttribute="trailing" constant="54" id="3x6-bR-msF"/>
+                            <constraint firstItem="Lq1-ds-hHX" firstAttribute="leading" secondItem="OzH-Co-SRf" secondAttribute="leading" id="4a1-zE-9cQ"/>
+                            <constraint firstItem="pEo-rI-0tD" firstAttribute="leading" secondItem="fMg-IB-GVo" secondAttribute="leading" id="6gv-0D-iRo"/>
+                            <constraint firstItem="AOi-bq-Df2" firstAttribute="top" secondItem="kpa-ne-bbV" secondAttribute="bottom" constant="13.333333333333314" id="9O6-yA-RNW"/>
+                            <constraint firstItem="pEo-rI-0tD" firstAttribute="trailing" secondItem="AOi-bq-Df2" secondAttribute="trailing" id="Agn-l7-zeT"/>
+                            <constraint firstItem="kpa-ne-bbV" firstAttribute="leading" secondItem="qmT-Xu-XGo" secondAttribute="leading" id="DB9-jA-1cW"/>
+                            <constraint firstItem="Lq1-ds-hHX" firstAttribute="top" secondItem="pEo-rI-0tD" secondAttribute="bottom" constant="7.6666666666666288" id="EKI-4p-HgJ"/>
+                            <constraint firstItem="Lq1-ds-hHX" firstAttribute="trailing" secondItem="MZ6-tN-aXN" secondAttribute="trailing" id="GFy-oh-PeY"/>
+                            <constraint firstItem="qmT-Xu-XGo" firstAttribute="top" secondItem="dt8-eV-HXj" secondAttribute="top" constant="49" id="I9z-Tg-3Vg"/>
+                            <constraint firstItem="OzH-Co-SRf" firstAttribute="top" secondItem="Lq1-ds-hHX" secondAttribute="bottom" constant="17.666666666666629" id="In4-9F-MKm"/>
+                            <constraint firstItem="Lq1-ds-hHX" firstAttribute="leading" secondItem="MZ6-tN-aXN" secondAttribute="leading" id="JXK-XP-SiK"/>
+                            <constraint firstItem="N9m-U3-r1R" firstAttribute="centerX" secondItem="fMg-IB-GVo" secondAttribute="centerX" id="K3Z-fG-ilh"/>
+                            <constraint firstItem="fMg-IB-GVo" firstAttribute="top" secondItem="N9m-U3-r1R" secondAttribute="bottom" constant="18" id="ODy-Bc-hH0"/>
+                            <constraint firstItem="MZ6-tN-aXN" firstAttribute="top" secondItem="qmT-Xu-XGo" secondAttribute="bottom" constant="8" symbolic="YES" id="RAQ-MK-CSK"/>
+                            <constraint firstItem="kpa-ne-bbV" firstAttribute="trailing" secondItem="hFo-QO-zLR" secondAttribute="trailingMargin" id="T9U-4U-nB6"/>
+                            <constraint firstItem="kdr-DM-x8E" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="38" id="Y6T-4M-uQk"/>
+                            <constraint firstItem="pEo-rI-0tD" firstAttribute="top" secondItem="fMg-IB-GVo" secondAttribute="bottom" constant="15" id="Ybv-Du-SDm"/>
+                            <constraint firstItem="N9m-U3-r1R" firstAttribute="top" secondItem="kdr-DM-x8E" secondAttribute="bottom" constant="7.3333333333333144" id="bgS-E8-cKF"/>
+                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="qmT-Xu-XGo" secondAttribute="trailing" constant="203" id="cdA-D3-KOZ"/>
+                            <constraint firstItem="kdr-DM-x8E" firstAttribute="top" secondItem="AOi-bq-Df2" secondAttribute="bottom" constant="8" symbolic="YES" id="cjg-at-yKR"/>
+                            <constraint firstItem="MZ6-tN-aXN" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="36" id="dfg-Ju-Ldz"/>
+                            <constraint firstItem="kpa-ne-bbV" firstAttribute="top" secondItem="MZ6-tN-aXN" secondAttribute="bottom" constant="15" id="gyc-rJ-U3K"/>
+                            <constraint firstItem="AOi-bq-Df2" firstAttribute="trailing" secondItem="qmT-Xu-XGo" secondAttribute="trailing" id="piW-aD-VoM"/>
+                            <constraint firstItem="N9m-U3-r1R" firstAttribute="leading" secondItem="dt8-eV-HXj" secondAttribute="leading" constant="144" id="q18-rS-sW5"/>
+                            <constraint firstItem="dt8-eV-HXj" firstAttribute="trailing" secondItem="MZ6-tN-aXN" secondAttribute="trailing" constant="56" id="rkB-fx-pz4"/>
+                            <constraint firstItem="fMg-IB-GVo" firstAttribute="trailing" secondItem="kpa-ne-bbV" secondAttribute="trailing" id="uTt-TC-8q5"/>
+                            <constraint firstItem="N9m-U3-r1R" firstAttribute="centerX" secondItem="kpa-ne-bbV" secondAttribute="centerX" id="zWe-Dx-dhG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hKJ-RO-Xd9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CQL-qL-mXS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1095.4198473282443" y="1636.6197183098593"/>
+            <point key="canvasLocation" x="1094.8598130841121" y="1636.0691144708424"/>
         </scene>
         <!--View Agobio Audio1 0min-->
         <scene sceneID="e2Y-tA-pBk">
             <objects>
                 <viewController id="cFr-gS-XjG" customClass="viewAgobioAudio10min" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Ox-fT-Ppx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="DA4-h9-iA2">
-                                <rect key="frame" x="-3" y="120" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="120" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditacion para el agobio de 10 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIj-0a-NAQ">
-                                <rect key="frame" x="56" y="94" width="281" height="48"/>
+                                <rect key="frame" x="56" y="94" width="316" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r8d-xo-QVZ">
-                                <rect key="frame" x="16" y="162" width="361" height="525"/>
+                                <rect key="frame" x="16" y="162" width="396" height="599"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSK-wD-ey4">
-                                <rect key="frame" x="88" y="720" width="217" height="54"/>
+                                <rect key="frame" x="88" y="794" width="252" height="54"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reproducir">
                                     <backgroundConfiguration key="background" cornerRadius="13">
@@ -1082,6 +1043,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="8bB-5q-dm2"/>
                     <connections>
+                        <outlet property="btnReproducir" destination="FSK-wD-ey4" id="PuW-Hy-ZNf"/>
                         <outlet property="contenedorTexto" destination="r8d-xo-QVZ" id="kxc-Wj-pvi"/>
                     </connections>
                 </viewController>
@@ -1094,25 +1056,25 @@
             <objects>
                 <viewController id="aK1-MA-yPO" customClass="vistaAnsiedadAudio10min" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qjw-LV-Sgj">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="pIs-CD-JD4">
-                                <rect key="frame" x="-3" y="120" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="120" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditacion para la tranquilidad de 10 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqu-9M-B5d">
-                                <rect key="frame" x="56" y="94" width="281" height="48"/>
+                                <rect key="frame" x="56" y="94" width="316" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SUp-t6-q4w">
-                                <rect key="frame" x="16" y="162" width="361" height="525"/>
+                                <rect key="frame" x="16" y="162" width="396" height="599"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYV-Xh-8fP">
-                                <rect key="frame" x="88" y="716" width="217" height="58"/>
+                                <rect key="frame" x="88" y="790" width="252" height="58"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reproducir">
                                     <backgroundConfiguration key="background" cornerRadius="13">
@@ -1142,6 +1104,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="gHx-98-QXM"/>
                     <connections>
+                        <outlet property="btnReproducir" destination="AYV-Xh-8fP" id="gw8-d9-C4N"/>
                         <outlet property="contenedorTexto" destination="SUp-t6-q4w" id="4m8-rm-GRb"/>
                     </connections>
                 </viewController>
@@ -1154,25 +1117,25 @@
             <objects>
                 <viewController id="lxx-4B-ffa" customClass="vistaAnsiedadAudio7min" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g6Q-8V-SQ7">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="pGj-72-eGr">
-                                <rect key="frame" x="-3" y="120" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="120" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditacion para la tranquilidad de 7 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6f-FZ-4Fc">
-                                <rect key="frame" x="56" y="94" width="281" height="48"/>
+                                <rect key="frame" x="56" y="94" width="316" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2FU-mM-E0D">
-                                <rect key="frame" x="16" y="162" width="361" height="525"/>
+                                <rect key="frame" x="16" y="162" width="396" height="599"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygq-na-xeu">
-                                <rect key="frame" x="88" y="716" width="217" height="58"/>
+                                <rect key="frame" x="88" y="790" width="252" height="58"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reproducir">
                                     <backgroundConfiguration key="background" cornerRadius="13">
@@ -1202,6 +1165,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="SfY-yY-7Wo"/>
                     <connections>
+                        <outlet property="btnReproducir" destination="ygq-na-xeu" id="AUa-df-0HM"/>
                         <outlet property="contenedorTexto" destination="2FU-mM-E0D" id="o07-ED-k12"/>
                     </connections>
                 </viewController>
@@ -1214,25 +1178,25 @@
             <objects>
                 <viewController id="uka-33-2rk" customClass="vistaAnsiedadAudio5min" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gIT-0T-IDR">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="BBj-TO-0EB">
-                                <rect key="frame" x="-3" y="120" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="120" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditacion para la tranquilidad de 5 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Py-2K-xFS">
-                                <rect key="frame" x="56" y="94" width="281" height="48"/>
+                                <rect key="frame" x="56" y="94" width="316" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFv-49-Mgh">
-                                <rect key="frame" x="16" y="162" width="361" height="525"/>
+                                <rect key="frame" x="16" y="162" width="396" height="599"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIZ-bT-1Af">
-                                <rect key="frame" x="88" y="716" width="217" height="58"/>
+                                <rect key="frame" x="88" y="790" width="252" height="58"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reproducir">
                                     <backgroundConfiguration key="background" cornerRadius="13">
@@ -1262,6 +1226,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Efx-nx-c6G"/>
                     <connections>
+                        <outlet property="btnReproducir" destination="gIZ-bT-1Af" id="H3I-lP-Bl6"/>
                         <outlet property="contenedorTexto" destination="xFv-49-Mgh" id="EtR-1q-0dY"/>
                     </connections>
                 </viewController>
@@ -1274,25 +1239,25 @@
             <objects>
                 <viewController id="W9i-NE-wUQ" customClass="vistaAmorAudio5min" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="POp-zu-bx7">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="i5s-Hx-ttc">
-                                <rect key="frame" x="-3" y="120" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="120" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditacion para el amor propio de 5 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqR-et-Eiq">
-                                <rect key="frame" x="56" y="94" width="281" height="48"/>
+                                <rect key="frame" x="56" y="94" width="316" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kkk-uN-MK0">
-                                <rect key="frame" x="16" y="162" width="361" height="525"/>
+                                <rect key="frame" x="16" y="162" width="396" height="599"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyb-MH-a2U">
-                                <rect key="frame" x="88" y="716" width="217" height="58"/>
+                                <rect key="frame" x="88" y="790" width="252" height="58"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reproducir">
                                     <backgroundConfiguration key="background" cornerRadius="13">
@@ -1301,6 +1266,9 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnReproducir:" destination="hBO-Vn-3ff" eventType="touchUpInside" id="cLD-Yk-93u"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PnI-aA-TqA"/>
@@ -1322,10 +1290,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="EJo-q6-kdP"/>
                     <connections>
+                        <outlet property="btnReproducir" destination="iyb-MH-a2U" id="xU1-CZ-Nk3"/>
                         <outlet property="contenedorTexto" destination="Kkk-uN-MK0" id="sfW-3M-0ox"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gj6-ei-9mS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="hBO-Vn-3ff" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4178" y="4184"/>
         </scene>
@@ -1334,25 +1304,25 @@
             <objects>
                 <viewController id="KHC-6y-Kye" customClass="vistaAmorAudio10min" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ou6-Cr-fgz">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="0jb-bo-8i6">
-                                <rect key="frame" x="-3" y="120" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="120" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditacion para el amor propio de 10 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPn-9h-lpG">
-                                <rect key="frame" x="56" y="94" width="281" height="48"/>
+                                <rect key="frame" x="56" y="94" width="316" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NbE-jP-J1P">
-                                <rect key="frame" x="16" y="162" width="361" height="525"/>
+                                <rect key="frame" x="16" y="162" width="396" height="599"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANT-Zz-Unb">
-                                <rect key="frame" x="88" y="716" width="217" height="58"/>
+                                <rect key="frame" x="88" y="790" width="252" height="58"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reproducir">
                                     <backgroundConfiguration key="background" cornerRadius="13">
@@ -1361,6 +1331,9 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnReproducir:" destination="XRr-Si-tqC" eventType="touchUpInside" id="WcE-fc-0G6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="miw-m5-zA4"/>
@@ -1382,10 +1355,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="1cf-yd-o1h"/>
                     <connections>
+                        <outlet property="btnReproducir" destination="ANT-Zz-Unb" id="dNu-FD-Qa8"/>
                         <outlet property="contenedorTexto" destination="NbE-jP-J1P" id="vv2-By-Po1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZm-E8-mCw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="XRr-Si-tqC" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3424" y="4184"/>
         </scene>
@@ -1394,25 +1369,25 @@
             <objects>
                 <viewController id="A0n-eq-NDN" customClass="vistaAmorAudio15min" customModule="MeditacionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q9C-H1-v0q">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoInterfaz" translatesAutoresizingMaskIntoConstraints="NO" id="8XV-n2-4ix">
-                                <rect key="frame" x="-3" y="120" width="399" height="754"/>
+                                <rect key="frame" x="-3" y="120" width="434" height="828"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditacion para el amor propio de 15 min" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfH-W7-6RM">
-                                <rect key="frame" x="56" y="94" width="281" height="48"/>
+                                <rect key="frame" x="56" y="94" width="316" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eNz-4h-cR7">
-                                <rect key="frame" x="16" y="162" width="361" height="525"/>
+                                <rect key="frame" x="16" y="162" width="396" height="599"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wt-h0-hNb">
-                                <rect key="frame" x="88" y="716" width="217" height="58"/>
+                                <rect key="frame" x="88" y="790" width="252" height="58"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reproducir">
                                     <backgroundConfiguration key="background" cornerRadius="13">
@@ -1442,6 +1417,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="dNc-yP-W33"/>
                     <connections>
+                        <outlet property="btnReproducir" destination="1wt-h0-hNb" id="X3a-aL-zSP"/>
                         <outlet property="contenedorTexto" destination="eNz-4h-cR7" id="7On-OF-WiX"/>
                     </connections>
                 </viewController>
@@ -1478,7 +1454,6 @@
         <image name="imagenCorazonAnsiedad" width="390" height="154"/>
         <image name="imagenCorazonSentimiento" width="254" height="202"/>
         <image name="imagenInicio" width="1170" height="1491"/>
-        <image name="imagenLogo" width="175" height="167"/>
         <image name="imagenMenuAgobioAudio" width="176" height="181"/>
         <image name="imagenMenuAnsiedadAudio" width="176" height="197"/>
         <image name="info.circle.fill" catalog="system" width="128" height="123"/>

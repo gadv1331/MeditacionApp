@@ -19,6 +19,15 @@
 		89809CEB2ABB72040012D2BB /* MeditacionAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89809CEA2ABB72040012D2BB /* MeditacionAppUITests.swift */; };
 		89809CED2ABB72040012D2BB /* MeditacionAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89809CEC2ABB72040012D2BB /* MeditacionAppUITestsLaunchTests.swift */; };
 		898C23362AC5CA5800CCC60B /* vistaMenuAudios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C23352AC5CA5800CCC60B /* vistaMenuAudios.swift */; };
+		898DD0DF2AFF0801003786A0 /* AnsiedadVideo2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898DD0D62AFF0801003786A0 /* AnsiedadVideo2.mp3 */; };
+		898DD0E02AFF0801003786A0 /* AnsiedadVideo3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898DD0D72AFF0801003786A0 /* AnsiedadVideo3.mp3 */; };
+		898DD0E12AFF0801003786A0 /* AnsiedadVideo1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898DD0D82AFF0801003786A0 /* AnsiedadVideo1.mp3 */; };
+		898DD0E22AFF0801003786A0 /* AgobioVideo1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898DD0D92AFF0801003786A0 /* AgobioVideo1.mp3 */; };
+		898DD0E32AFF0801003786A0 /* AgobioVideo2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898DD0DA2AFF0801003786A0 /* AgobioVideo2.mp3 */; };
+		898DD0E42AFF0801003786A0 /* AgobioVideo3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898DD0DB2AFF0801003786A0 /* AgobioVideo3.mp3 */; };
+		898DD0E52AFF0801003786A0 /* AmorPropioVideo1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898DD0DC2AFF0801003786A0 /* AmorPropioVideo1.mp3 */; };
+		898DD0E62AFF0801003786A0 /* AmorPropioVideo2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898DD0DD2AFF0801003786A0 /* AmorPropioVideo2.mp3 */; };
+		898DD0E72AFF0801003786A0 /* AmorPropioVideo3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 898DD0DE2AFF0801003786A0 /* AmorPropioVideo3.mp3 */; };
 		898E20D82AFD487900D6302D /* vistaAgobioAudio5min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E20D72AFD487900D6302D /* vistaAgobioAudio5min.swift */; };
 		898E20DA2AFD4BBC00D6302D /* viewAgobioAudio10min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E20D92AFD4BBC00D6302D /* viewAgobioAudio10min.swift */; };
 		898E20DC2AFD544700D6302D /* vistaAnsiedadAudio5min.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E20DB2AFD544700D6302D /* vistaAnsiedadAudio5min.swift */; };
@@ -69,6 +78,15 @@
 		89809CEA2ABB72040012D2BB /* MeditacionAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditacionAppUITests.swift; sourceTree = "<group>"; };
 		89809CEC2ABB72040012D2BB /* MeditacionAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditacionAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		898C23352AC5CA5800CCC60B /* vistaMenuAudios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaMenuAudios.swift; sourceTree = "<group>"; };
+		898DD0D62AFF0801003786A0 /* AnsiedadVideo2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AnsiedadVideo2.mp3; sourceTree = "<group>"; };
+		898DD0D72AFF0801003786A0 /* AnsiedadVideo3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AnsiedadVideo3.mp3; sourceTree = "<group>"; };
+		898DD0D82AFF0801003786A0 /* AnsiedadVideo1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AnsiedadVideo1.mp3; sourceTree = "<group>"; };
+		898DD0D92AFF0801003786A0 /* AgobioVideo1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AgobioVideo1.mp3; sourceTree = "<group>"; };
+		898DD0DA2AFF0801003786A0 /* AgobioVideo2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AgobioVideo2.mp3; sourceTree = "<group>"; };
+		898DD0DB2AFF0801003786A0 /* AgobioVideo3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AgobioVideo3.mp3; sourceTree = "<group>"; };
+		898DD0DC2AFF0801003786A0 /* AmorPropioVideo1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AmorPropioVideo1.mp3; sourceTree = "<group>"; };
+		898DD0DD2AFF0801003786A0 /* AmorPropioVideo2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AmorPropioVideo2.mp3; sourceTree = "<group>"; };
+		898DD0DE2AFF0801003786A0 /* AmorPropioVideo3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AmorPropioVideo3.mp3; sourceTree = "<group>"; };
 		898E20D72AFD487900D6302D /* vistaAgobioAudio5min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAgobioAudio5min.swift; sourceTree = "<group>"; };
 		898E20D92AFD4BBC00D6302D /* viewAgobioAudio10min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewAgobioAudio10min.swift; sourceTree = "<group>"; };
 		898E20DB2AFD544700D6302D /* vistaAnsiedadAudio5min.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vistaAnsiedadAudio5min.swift; sourceTree = "<group>"; };
@@ -133,6 +151,7 @@
 		89809CC52ABB72000012D2BB /* MeditacionApp */ = {
 			isa = PBXGroup;
 			children = (
+				898DD0D52AFF0801003786A0 /* Audios */,
 				89809CC62ABB72000012D2BB /* AppDelegate.swift */,
 				898C23352AC5CA5800CCC60B /* vistaMenuAudios.swift */,
 				89809CC82ABB72000012D2BB /* SceneDelegate.swift */,
@@ -176,6 +195,22 @@
 				89809CEC2ABB72040012D2BB /* MeditacionAppUITestsLaunchTests.swift */,
 			);
 			path = MeditacionAppUITests;
+			sourceTree = "<group>";
+		};
+		898DD0D52AFF0801003786A0 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				898DD0D62AFF0801003786A0 /* AnsiedadVideo2.mp3 */,
+				898DD0D72AFF0801003786A0 /* AnsiedadVideo3.mp3 */,
+				898DD0D82AFF0801003786A0 /* AnsiedadVideo1.mp3 */,
+				898DD0D92AFF0801003786A0 /* AgobioVideo1.mp3 */,
+				898DD0DA2AFF0801003786A0 /* AgobioVideo2.mp3 */,
+				898DD0DB2AFF0801003786A0 /* AgobioVideo3.mp3 */,
+				898DD0DC2AFF0801003786A0 /* AmorPropioVideo1.mp3 */,
+				898DD0DD2AFF0801003786A0 /* AmorPropioVideo2.mp3 */,
+				898DD0DE2AFF0801003786A0 /* AmorPropioVideo3.mp3 */,
+			);
+			path = Audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,8 +317,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898DD0E32AFF0801003786A0 /* AgobioVideo2.mp3 in Resources */,
+				898DD0E62AFF0801003786A0 /* AmorPropioVideo2.mp3 in Resources */,
+				898DD0DF2AFF0801003786A0 /* AnsiedadVideo2.mp3 in Resources */,
 				89809CD62ABB72030012D2BB /* LaunchScreen.storyboard in Resources */,
+				898DD0E52AFF0801003786A0 /* AmorPropioVideo1.mp3 in Resources */,
 				89809CD32ABB72030012D2BB /* Assets.xcassets in Resources */,
+				898DD0E42AFF0801003786A0 /* AgobioVideo3.mp3 in Resources */,
+				898DD0E72AFF0801003786A0 /* AmorPropioVideo3.mp3 in Resources */,
+				898DD0E12AFF0801003786A0 /* AnsiedadVideo1.mp3 in Resources */,
+				898DD0E02AFF0801003786A0 /* AnsiedadVideo3.mp3 in Resources */,
+				898DD0E22AFF0801003786A0 /* AgobioVideo1.mp3 in Resources */,
 				89809CCE2ABB72000012D2BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

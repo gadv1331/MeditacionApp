@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import AVFoundation
 
-class vistaAmorAudio5min: UIViewController {
+class vistaAmorAudio5min: UIViewController,AVAudioPlayerDelegate {
 
     
     @IBOutlet weak var contenedorTexto: UIView!
@@ -15,8 +16,16 @@ class vistaAmorAudio5min: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var textView: UITextView!
     
+    @IBOutlet weak var btnReproducir: UIButton!
+    
+    var audioPlayer: AVAudioPlayer?
+    var isPlaying = false
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setupUI()
 
         // Agrega una vista de desplazamiento a tu controlador de vista
         let scrollView = UIScrollView(frame: contenedorTexto.bounds)
@@ -52,15 +61,45 @@ class vistaAmorAudio5min: UIViewController {
         
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupUI() {
+            btnReproducir.setTitle("Reproducir", for: .normal)
+            btnReproducir.addTarget(self, action: #selector(playButtonTapped), for: .touchUpInside)
     }
-    */
+    
+    @objc func playButtonTapped() {
+            if isPlaying {
+                stopAudio()
+            } else {
+                playAudio()
+            }
+        }
+    
+    func playAudio() {
+            guard let audioURL = Bundle.main.url(forResource: "AmorPropioVideo1", withExtension: "mp3") else {
+                print("Error: No se encontró el archivo de audio")
+                return
+            }
+            
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: audioURL)
+                audioPlayer?.delegate = self
+                audioPlayer?.play()
+                isPlaying = true
+                btnReproducir.setTitle("Detener", for: .normal)
+            } catch {
+                print("Error al reproducir el audio: \(error.localizedDescription)")
+            }
+        }
+    
+    func stopAudio() {
+            audioPlayer?.stop()
+            isPlaying = false
+            btnReproducir.setTitle("Reproducir", for: .normal)
+        }
+    
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        stopAudio()
+    }
 
 }
+
