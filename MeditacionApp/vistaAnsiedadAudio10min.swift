@@ -102,10 +102,10 @@ class vistaAnsiedadAudio10min: UIViewController,AVAudioPlayerDelegate{
         }
     
     func stopAudio() {
-            audioPlayer?.stop()
-            isPlaying = false
-            btnReproducir.setTitle("Reproducir", for: .normal)
-        }
+        audioPlayer?.stop()
+        isPlaying = false
+        btnReproducir.setTitle("Reproducir", for: .normal)
+    }
     
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         stopAudio()
