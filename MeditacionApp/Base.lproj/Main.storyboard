@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -132,7 +132,7 @@
                                     <segue destination="LBG-rj-hVe" kind="show" id="pd1-jp-gcJ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¿ Sobre qué te gustaria conocer ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2X-GZ-jmW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¿ Qué te gustaria conocer ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2X-GZ-jmW">
                                 <rect key="frame" x="0.0" y="225" width="414" height="135"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -596,7 +596,7 @@
                                     <segue destination="5e0-bX-ADU" kind="show" id="GBN-eY-BZe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Que te gustaria reforzar?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HR0-JO-0X3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿ Qué  te gustaria reforzar ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HR0-JO-0X3">
                                 <rect key="frame" x="16" y="281" width="382" height="70"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -874,34 +874,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quienes somos?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmT-Xu-XGo">
-                                <rect key="frame" x="20" y="93" width="191" height="27"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿ Quienes somos ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmT-Xu-XGo">
+                                <rect key="frame" x="20" y="93" width="191" height="25.333333333333329"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" red="0.40392156862745099" green="0.094117647058823528" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZ6-tN-aXN">
-                                <rect key="frame" x="36" y="128" width="322" height="114.66666666666669"/>
+                                <rect key="frame" x="36" y="126.33333333333331" width="322" height="114.66666666666669"/>
                                 <string key="text">La Fundación Ayúdate es una organización no gubernamental sin fines de lucro que tiene como misión atender, investigar, formar y prevenir los trastornos de comportamiento alimentario para mejorar la calidad de vida del venezolano.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kpa-ne-bbV">
-                                <rect key="frame" x="20" y="257.66666666666669" width="374" height="2"/>
+                                <rect key="frame" x="20" y="256" width="374" height="2"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.1333333333" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="Mjj-bZ-WFB"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deseas donar?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOi-bq-Df2">
-                                <rect key="frame" x="20" y="273" width="191" height="27"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿  Deseas donar ? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOi-bq-Df2">
+                                <rect key="frame" x="20" y="271.33333333333331" width="191" height="25.333333333333314"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9m-U3-r1R">
-                                <rect key="frame" x="144" y="430" width="126" height="47"/>
+                                <rect key="frame" x="144" y="426.66666666666669" width="126" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="fWL-uu-XrX"/>
                                 </constraints>
@@ -915,7 +915,7 @@
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzH-Co-SRf">
-                                <rect key="frame" x="36" y="621.66666666666663" width="292.33333333333331" height="38.333333333333371"/>
+                                <rect key="frame" x="36" y="618.33333333333337" width="292.33333333333331" height="38.333333333333371"/>
                                 <string key="text">Información de contacto: 0414 3023722
 02129762146</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -923,27 +923,27 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdr-DM-x8E">
-                                <rect key="frame" x="38" y="308" width="322" height="114.66666666666669"/>
+                                <rect key="frame" x="38" y="304.66666666666669" width="322" height="114.66666666666669"/>
                                 <string key="text">Si desea apoyarnos en nuestra causa aquí le dejamos la opcion de donar 7$ para apoyarnos.En caso de que quiera donar otra cantidad o con otro metodo de pago ,por favor contactenos , estaremos agradecidos de antenderlo.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fMg-IB-GVo">
-                                <rect key="frame" x="20" y="495" width="374" height="2"/>
+                                <rect key="frame" x="20" y="491.66666666666669" width="374" height="2"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.1333333333" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="2KH-eW-MCR"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informacion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEo-rI-0tD">
-                                <rect key="frame" x="20" y="512" width="191" height="27"/>
+                                <rect key="frame" x="20" y="508.66666666666674" width="191" height="27"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Localización: Calle Las Cocuizas, Qta. La Juanera / CARACAS / 1080 / MIRANDA / Venezuela " lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lq1-ds-hHX">
-                                <rect key="frame" x="36" y="546.66666666666663" width="322" height="57.333333333333371"/>
+                                <rect key="frame" x="36" y="543.33333333333337" width="322" height="57.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.4039215686" green="0.094117647060000004" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1447,7 +1447,7 @@
         <image name="botonMenuAnsiedad7min " width="363" height="134"/>
         <image name="fondoInterfaz" width="390" height="749"/>
         <image name="fondoMenu" width="390" height="823"/>
-        <image name="house.fill" catalog="system" width="32" height="32"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="imagenAmorMenuAudio" width="190" height="152"/>
         <image name="imagenCorazonAgobio" width="229" height="197"/>
         <image name="imagenCorazonAmorPropio" width="239" height="191"/>

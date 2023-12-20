@@ -39,10 +39,13 @@ class vistaAmorPropio: UIViewController {
         textView.font = .systemFont(ofSize: 18)
         textView.text = """
         El amor propio o autoestima, es nuestra decisión de amarnos cómo somos y está va a estar afectada, por la forma en que nos percibimos; lo cual se conoce como autopercepción.
+        
         La  autopercepción es un concepto mental de quién y cómo somos, de la imagen mental de nosotros mismos, es decir, y una idea de cómo somos tanto física como psicológicamente. Lo cual está vinculado a las experiencias que hemos tenido a lo largo de nuestra vida. Esta idea de nosotros mismos puede coincidir con la idea que los demás tienen de nosotros o no, incluso esta idea puede coincidir con la realidad o no. Cuando más realista sea el autoconcepto, más adecuada será nuestra interacción con el ambiente que nos rodea, más nos aceptamos a nosotros mismos, mayor será nuestra capacidad de crecimiento personal y más sólida será nuestra autoestima.
+        
         Si nuestra autoestima es adecuada, podremos interactuar con el mundo de forma sana, podemos afirmarnos en cualquier situación y defender nuestros derechos sin alteración. Con una autoestima sana seremos inmunes o poco vulnerables a los ataques emocionales del entorno y actuaremos con tranquilidad en cualquier situación, aceptándonos incondicionalmente, lo que hará que estemos satisfechos de nuestras reacciones y conductas.
 
         Una autoestima sana previene enfermedades psicológicas como la depresión o la ansiedad. Es también una de las bases de las relaciones humanas, y por lo tanto, afecta de forma directa a nuestra manera de actuar en el mundo y de relacionarnos con los demás.
+        
         Una autoestima saludable nos permite tener una serie de conductas y actitudes que tienen efectos beneficiosos para la salud y la calidad de vida.
         """
         contentView.addSubview(textView)
